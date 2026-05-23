@@ -1,0 +1,189 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout 
+  title="Cohort 02 (Autumn 2026) — LBS AI Lab Upcoming Batch" 
+  description="Learn about the upcoming Autumn 2026 Cohort at LBS AI Lab. Review requirements, timelines, who should apply, and register interest."
+>
+  <!-- Hero Section -->
+  <section class="cohort-hero" aria-label="Cohort 02 Introduction">
+    <div class="container">
+      <span class="badge badge-red" style="margin-bottom: 20px;">Cohort 02 · Autumn 2026</span>
+      <h1 class="cohort-headline">The next cohort starts September 2026.</h1>
+      <p class="cohort-subheadline">
+        Applications will open for LBS students who want to build AI products, prototype workflows, and develop hands-on AI fluency for leadership and transformation.
+      </p>
+    </div>
+  </section>
+
+  <!-- Content breakdown -->
+  <section class="details-section" aria-label="Cohort Specifications">
+    <div class="container asymmetrical-grid">
+      <div class="details-body">
+        <h2 class="section-title">Who should apply</h2>
+        <p class="details-lead">
+          Apply if you are an LBS student with founder-level ambition, operator instincts, or a clear problem you want to solve with AI.
+        </p>
+        <p>
+          You do not need to be a professional software engineer, but you must be willing to build, test, learn, and ship. We pair students with mixed backgrounds—bringing business knowledge, sector expertise, product management, and development skills together into balanced teams.
+        </p>
+        <p>
+          We are especially looking for:
+        </p>
+        <ul class="specs-bullet-list">
+          <li>
+            <strong>MBA / MIF / MAM Operators:</strong> Who see a concrete process, career workflow, or industry model that can be rebuilt using AI.
+          </li>
+          <li>
+            <strong>Future Founders:</strong> Who want to test venture hypotheses, build real functional MVPs, and gather early pilot data.
+          </li>
+          <li>
+            <strong>Student Builders:</strong> Who want to develop practical AI fluency—learning to query model endpoints, structure context, and manage state in modern tools.
+          </li>
+        </ul>
+
+        <h2 class="section-title" style="margin-top: 56px;">What to expect</h2>
+        <p>
+          The Lab is strictly practical. You will work in teams, build prototypes, test with users, and learn how AI changes product development and organisational workflows.
+        </p>
+        <ul class="specs-bullet-list">
+          <li>
+            <strong>Rapid Prototyping:</strong> We provide infrastructure and starter code to help you go from zero to a live URL in weeks.
+          </li>
+          <li>
+            <strong>Collaborative Teams:</strong> Balanced squads that replicate serious product-building environments.
+          </li>
+          <li>
+            <strong>Direct Feedback:</strong> Active review checkpoints with Technical and Product mentors to keep builds focused and aligned.
+          </li>
+        </ul>
+      </div>
+
+      <div class="details-sidebar">
+        <div class="upcoming-meta-card">
+          <h3 class="sidebar-meta-title">Batch Info</h3>
+          <ul class="sidebar-meta-list">
+            <li>
+              <strong>Starts:</strong> September 2026
+            </li>
+            <li>
+              <strong>Duration:</strong> 9 Weeks
+            </li>
+            <li>
+              <strong>Integrations:</strong> APIs, Database persistence, Node/TypeScript setups
+            </li>
+            <li>
+              <strong>Deliverable:</strong> Shipped product on live URL
+            </li>
+          </ul>
+          <a href="/apply/" class="btn btn-primary" style="display: block; text-align: center; margin-top: 32px; background-color: var(--color-lbs-red); color: white;">Register Interest</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  /* Cohort 02 specific styling */
+  .cohort-hero {
+    background-color: var(--color-lbs-blue);
+    padding-top: clamp(64px, 8vw, 120px);
+    padding-bottom: clamp(64px, 8vw, 120px);
+    color: var(--color-white);
+    border-bottom: 6px solid var(--color-lbs-red);
+  }
+
+  .cohort-headline {
+    color: var(--color-white);
+    font-size: clamp(2rem, 4.5vw, 3.6rem);
+    margin-bottom: 24px;
+    line-height: 1.15;
+  }
+
+  .cohort-subheadline {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: var(--step-1);
+    max-width: 800px;
+    line-height: 1.5;
+  }
+
+  /* Details section */
+  .details-section {
+    background-color: var(--color-white);
+    padding-top: clamp(64px, 8vw, 120px);
+    padding-bottom: clamp(64px, 8vw, 120px);
+  }
+
+  .details-lead {
+    font-family: var(--font-serif);
+    font-size: var(--step-1);
+    color: var(--color-lbs-blue);
+    margin-bottom: 24px;
+    line-height: 1.5;
+  }
+
+  .specs-bullet-list {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .specs-bullet-list li {
+    font-size: var(--step--1);
+    color: var(--color-ink-soft);
+    line-height: 1.6;
+    position: relative;
+    padding-left: 24px;
+  }
+
+  .specs-bullet-list li::before {
+    content: '▪';
+    position: absolute;
+    left: 0;
+    color: var(--color-lbs-red);
+    font-size: var(--step-0);
+    line-height: 1;
+  }
+
+  .details-sidebar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .upcoming-meta-card {
+    background-color: var(--color-lbs-blue);
+    color: var(--color-white);
+    padding: 40px;
+    border-top: 4px solid var(--color-lbs-red);
+    width: 100%;
+  }
+
+  .sidebar-meta-title {
+    color: var(--color-white);
+    font-size: var(--step-1);
+    margin-bottom: 24px;
+    font-family: var(--font-serif);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 8px;
+  }
+
+  .sidebar-meta-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .sidebar-meta-list li {
+    font-size: var(--step--1);
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .sidebar-meta-list li strong {
+    color: var(--color-white);
+  }
+</style>

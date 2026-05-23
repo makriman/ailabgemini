@@ -1,0 +1,336 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout 
+  title="Apply for September 2026 — LBS AI Lab" 
+  description="Apply to join the Autumn 2026 cohort at LBS AI Lab. A hands-on venture-building environment to develop AI fluency by shipping code."
+>
+  <!-- Hero Section -->
+  <section class="apply-hero" aria-label="Apply Introduction">
+    <div class="container">
+      <span class="badge badge-red" style="margin-bottom: 20px;">Register Interest</span>
+      <h1 class="apply-headline">Build with the September 2026 cohort.</h1>
+      <p class="apply-subheadline">
+        LBS AI Lab is for students who want hands-on experience building AI products and leading AI transformation from the inside.
+      </p>
+    </div>
+  </section>
+
+  <!-- Detailed Criteria sections -->
+  <section class="specs-section" aria-label="Cohort Guidelines">
+    <div class="container asymmetrical-grid">
+      <div class="specs-body">
+        <h2 class="section-title">Who this is for</h2>
+        <p class="specs-lead">
+          We look for current LBS students who value execution over abstract discussion.
+        </p>
+        <p>
+          The Lab is an active venture sandbox. It is built to support students who fit one of these profiles:
+        </p>
+        <ul class="specs-list">
+          <li>
+            <strong>MBA / MIF / MAM Operators:</strong> Who have identified a highly specific workflow, operational bottleneck, or industry model that can be automated or redesigned using generative AI.
+          </li>
+          <li>
+            <strong>Future Founders:</strong> Who want to build, test, and ship a real functional MVP to gather pilot traction, customer behaviors, and performance data before pitching.
+          </li>
+          <li>
+            <strong>Ambitious Builders:</strong> Who want to learn AI by actually building—writing configurations, setting database models, structuring vector indices, and querying APIs directly.
+          </li>
+        </ul>
+
+        <h2 class="section-title" style="margin-top: 56px;">What you will do</h2>
+        <p>
+          During the 9-week cohort, you will move systematically from scoping to a live, functional, public application:
+        </p>
+        <ul class="specs-list">
+          <li>
+            <strong>Form or join a team:</strong> We pair students with mixed profiles (MBA business coordinators, technical builders, product managers) to replicate serious product development squads.
+          </li>
+          <li>
+            <strong>Choose a real problem:</strong> We help you strip away abstract fluff to define a highly specific core MVP that can be completed and launched.
+          </li>
+          <li>
+            <strong>Prototype with AI tools:</strong> Access sandbox keys, shared servers, serverless DB clusters, and starter code configurations to get a URL live rapidly.
+          </li>
+          <li>
+            <strong>Test with real users:</strong> Gather feedback from classmates, target customers, or organizational pilots.
+          </li>
+          <li>
+            <strong>Present at Showcase Day:</strong> Launch your product publicly to fellow students, faculty, recruiters, and external venture builders.
+          </li>
+        </ul>
+      </div>
+
+      <div class="specs-sidebar">
+        <div class="apply-action-card">
+          <h3 class="action-card-title">Registration Status</h3>
+          <p class="action-card-text">
+            Applications for Cohort 02 (Autumn 2026) will open in late summer. 
+          </p>
+          <p class="action-card-text" style="margin-bottom: 24px;">
+            Register your interest today to receive early access to team briefs, workspace specifications, and application deadlines.
+          </p>
+          
+          <form class="interest-form" id="interest-form" aria-label="Cohort Interest Form">
+            <div class="form-group">
+              <label for="student-name">Full Name</label>
+              <input type="text" id="student-name" required placeholder="Jane Doe" />
+            </div>
+            <div class="form-group">
+              <label for="student-email">LBS Email Address</label>
+              <input type="email" id="student-email" required placeholder="jdoe.mba2027@london.edu" />
+            </div>
+            <div class="form-group">
+              <label for="student-program">Academic Program</label>
+              <select id="student-program">
+                <option value="mba">MBA</option>
+                <option value="mif">MIF</option>
+                <option value="mam">MAM</option>
+                <option value="phd">PhD / Faculty</option>
+                <option value="other">Other LBS Program</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary" style="display: block; width: 100%; margin-top: 24px; background-color: var(--color-lbs-red); color: white;">
+              Submit Interest
+            </button>
+          </form>
+          <div class="success-message" id="success-msg" style="display: none;">
+            Thank you! Your interest has been registered. We will contact you at your LBS address with cohort updates.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What you don't need -->
+  <section class="qualifications-section" aria-label="Requirements Checklist">
+    <div class="container">
+      <div class="qual-card">
+        <span class="section-eyebrow">Prerequisites</span>
+        <h2 class="section-title">What you do not need</h2>
+        <div class="qual-grid">
+          <div class="qual-item">
+            <strong>No prior engineering degree required:</strong> We teach you how to interact with model endpoints and setup serverless structures from scratch.
+          </div>
+          <div class="qual-item">
+            <strong>No venture funding required:</strong> We provide the sandbox credentials, shared API integrations, and local workspace databases.
+          </div>
+          <div class="qual-item">
+            <strong>What you DO need:</strong> Curiosity, technical patience, a high standard of execution, and a willingness to ship weekly.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  /* Apply page specific styling */
+  .apply-hero {
+    background-color: var(--color-lbs-blue);
+    padding-top: clamp(64px, 8vw, 120px);
+    padding-bottom: clamp(64px, 8vw, 120px);
+    color: var(--color-white);
+    border-bottom: 6px solid var(--color-lbs-red);
+  }
+
+  .apply-headline {
+    color: var(--color-white);
+    font-size: clamp(2rem, 4.5vw, 3.6rem);
+    margin-bottom: 24px;
+    line-height: 1.15;
+  }
+
+  .apply-subheadline {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: var(--step-1);
+    max-width: 800px;
+    line-height: 1.5;
+  }
+
+  /* Specifications */
+  .specs-section {
+    background-color: var(--color-white);
+    padding-top: clamp(64px, 8vw, 120px);
+    padding-bottom: clamp(64px, 8vw, 120px);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .specs-lead {
+    font-family: var(--font-serif);
+    font-size: var(--step-1);
+    color: var(--color-lbs-blue);
+    margin-bottom: 24px;
+    line-height: 1.5;
+  }
+
+  .specs-list {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .specs-list li {
+    font-size: var(--step--1);
+    color: var(--color-ink-soft);
+    line-height: 1.6;
+    position: relative;
+    padding-left: 24px;
+  }
+
+  .specs-list li::before {
+    content: '▪';
+    position: absolute;
+    left: 0;
+    color: var(--color-lbs-red);
+    font-size: var(--step-0);
+    line-height: 1;
+  }
+
+  /* Registration Form card */
+  .specs-sidebar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .apply-action-card {
+    background-color: var(--color-lbs-blue);
+    color: var(--color-white);
+    padding: clamp(24px, 4vw, 40px);
+    border-top: 4px solid var(--color-lbs-red);
+    width: 100%;
+    box-shadow: var(--shadow-card);
+  }
+
+  .action-card-title {
+    color: var(--color-white);
+    font-size: var(--step-1);
+    margin-bottom: 16px;
+    font-family: var(--font-serif);
+  }
+
+  .action-card-text {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: var(--step--1);
+    line-height: 1.5;
+  }
+
+  .interest-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .form-group label {
+    font-size: var(--step--2);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .form-group input,
+  .form-group select {
+    padding: 10px 14px;
+    border-radius: var(--radius-badge);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.08);
+    color: var(--color-white);
+    font-family: var(--font-sans);
+    font-size: var(--step--1);
+    transition: var(--transition-fast);
+  }
+
+  .form-group select option {
+    background-color: var(--color-lbs-blue);
+    color: var(--color-white);
+  }
+
+  .form-group input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: var(--color-lbs-red);
+    background-color: rgba(255, 255, 255, 0.15);
+    outline: none;
+  }
+
+  .success-message {
+    font-size: var(--step--1);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 24px;
+    margin-top: 24px;
+    line-height: 1.5;
+  }
+
+  /* Qualifications Section */
+  .qualifications-section {
+    background-color: var(--color-warm-white);
+    padding-top: clamp(64px, 8vw, 120px);
+    padding-bottom: clamp(64px, 8vw, 120px);
+  }
+
+  .qual-card {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-border);
+    padding: clamp(32px, 5vw, 64px);
+    border-left: 6px solid var(--color-lbs-blue);
+  }
+
+  .qual-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 32px;
+    border-top: 1px solid var(--color-border);
+    padding-top: 32px;
+  }
+
+  @media (min-width: 768px) {
+    .qual-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .qual-item {
+    font-size: var(--step--1);
+    color: var(--color-ink-soft);
+    line-height: 1.6;
+  }
+
+  .qual-item strong {
+    color: var(--color-lbs-blue);
+    display: block;
+    margin-bottom: 8px;
+  }
+</style>
+
+<!-- Safe interactive form submit -->
+<script>
+  const form = document.getElementById('interest-form');
+  const successMsg = document.getElementById('success-msg');
+
+  if (form && successMsg) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      // Mock submit
+      form.style.display = 'none';
+      successMsg.style.display = 'block';
+    });
+  }
+</script>
