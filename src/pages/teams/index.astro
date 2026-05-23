@@ -3,17 +3,11 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
 const allTeams = await getCollection('teams');
-
-// Extract unique categories
-const categories = ["All", ...new Set(allTeams.map(t => {
-  const mainPart = t.data.category.split('/')[0].trim();
-  return mainPart;
-}))];
 ---
 
 <Layout 
   title="Venture Directory — Shipped Products by LBS AI Lab" 
-  description="Explore the portfolio of AI products created by London Business School student builders, covering career copilots, operations, admissions, and more."
+  description="Explore the portfolio of AI products created by London Business School student builders, in partnership with Google DeepMind."
 >
   <!-- Hero Section -->
   <section class="teams-hero" aria-label="Teams Introduction">
@@ -21,52 +15,58 @@ const categories = ["All", ...new Set(allTeams.map(t => {
       <span class="badge badge-red" style="margin-bottom: 20px;">Venture Portfolio</span>
       <h1 class="teams-headline">Products built by LBS AI Lab teams.</h1>
       <p class="teams-subheadline">
-        Explore AI products created by students across cohorts, from internal LBS tools to venture-scale prototypes.
+        Explore AI products created by students across cohorts. In this new era, building fast is easy—the ultimate focus is launching MVPs, testing with real users, and gathering immediate feedback.
       </p>
     </div>
   </section>
 
-  <!-- Interactive Directory Grid -->
+  <!-- Interactive Directory Grid with Cohort Filters -->
   <section class="directory-section" aria-label="Product Gallery">
     <div class="container">
       <div class="filter-controls-bar">
         <div>
-          <span class="filter-label-text">Select Category:</span>
-          <div class="category-filters" role="tablist" aria-label="Venture categories">
-            {categories.map((cat, idx) => (
-              <button 
-                class={`filter-btn ${idx === 0 ? 'active' : ''}`}
-                data-category={cat === 'All' ? 'all' : cat.toLowerCase().replace(/[^a-z0-9]/g, '-')}
-                role="tab"
-                aria-selected={idx === 0 ? 'true' : 'false'}
-              >
-                {cat}
-              </button>
-            ))}
+          <span class="filter-label-text">Select Batch:</span>
+          <div class="cohort-filters" role="tablist" aria-label="Cohorts">
+            <button class="filter-btn active" data-cohort="cohort-01" role="tab" aria-selected="true">
+              Cohort 01 (Spring 2026)
+            </button>
+            <button class="filter-btn" data-cohort="cohort-02" role="tab" aria-selected="false">
+              Cohort 02 (Autumn 2026)
+            </button>
           </div>
         </div>
       </div>
 
       <!-- Grid of Cards -->
-      <div class="teams-showcase-grid" id="teams-showcase-container">
-        {allTeams.map(team => {
-          const categorySlug = team.data.category.split('/')[0].trim().toLowerCase().replace(/[^a-z0-9]/g, '-');
-          
+      <div class="teams-showcase-grid" id="cohort-01-container">
+        {allTeams.filter(t => t.data.cohort === 'cohort-01').map(team => {
           return (
-            <div class="team-card-wrapper" data-cat={categorySlug}>
+            <div class="team-card-wrapper">
               <div class="team-portfolio-card">
                 <div class="card-body-content">
                   <div class="card-header-row">
                     <span class="team-cat-tag">{team.data.category}</span>
-                    <span class="cohort-tag">{team.data.cohortLabel}</span>
+                    <span class="cohort-partnership-badge">Google DeepMind Partner</span>
                   </div>
                   <h3 class="team-title">{team.data.name}</h3>
                   <p class="team-tagline">{team.data.tagline}</p>
                   <p class="team-summary-text">{team.data.summary}</p>
+                  
+                  <div class="team-builders-roster">
+                    <strong>Builders:</strong>
+                    <ul class="builders-emails-list">
+                      {team.data.members.map(m => (
+                        <li>
+                          <span class="builder-name">{m.name}</span>
+                          <a href={`mailto:${m.email}`} class="builder-email">{m.email}</a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
                 
                 <div class="card-footer-row">
-                  <span class="members-count">{team.data.members.length} Builders</span>
+                  <span class="cohort-tag">{team.data.cohortLabel}</span>
                   <div class="actions-group">
                     <a href={`/teams/${team.id}/`} class="btn btn-secondary" style="padding: 6px 14px; font-size: var(--step--2);">Details</a>
                     {team.data.productUrl && (
@@ -81,6 +81,18 @@ const categories = ["All", ...new Set(allTeams.map(t => {
           );
         })}
       </div>
+
+      <!-- Upcoming Cohort 02 Placeholder (Visually Stunning) -->
+      <div class="upcoming-cohort-placeholder" id="cohort-02-container" style="display: none;">
+        <div class="placeholder-card">
+          <span class="badge badge-red" style="margin-bottom: 16px;">Cohort 02 Upcoming</span>
+          <h3 class="placeholder-title">September 2026 Batch is Scaffolding</h3>
+          <p class="placeholder-desc">
+            We are preparing the next cohort sandbox. If you want to learn vibe coding, build fast, and launch to an audience of 2,000 real LBS students, register your interest now.
+          </p>
+          <a href="/apply/" class="btn btn-primary">Register Interest for September 2026</a>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -90,7 +102,7 @@ const categories = ["All", ...new Set(allTeams.map(t => {
       <div class="cta-inner-card">
         <h2 class="cta-title">Want to build something of your own?</h2>
         <p class="cta-desc">
-          Applications for Cohort 02 open late summer. Join a structured timeline, get technical guidance from mentors, and ship a live product to a public URL.
+          LBS AI Lab provides a structured timeline, access to technical experts, and a ready fraternity of real student users to test your product and iterate on it.
         </p>
         <a href="/apply/" class="btn btn-primary">Register Interest</a>
       </div>
@@ -146,7 +158,7 @@ const categories = ["All", ...new Set(allTeams.map(t => {
     margin-bottom: 12px;
   }
 
-  .category-filters {
+  .cohort-filters {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
@@ -197,7 +209,6 @@ const categories = ["All", ...new Set(allTeams.map(t => {
 
   .team-card-wrapper {
     display: flex;
-    transition: opacity 0.3s ease, transform 0.3s ease;
   }
 
   .team-portfolio-card {
@@ -237,7 +248,7 @@ const categories = ["All", ...new Set(allTeams.map(t => {
     letter-spacing: 0.05em;
   }
 
-  .cohort-tag {
+  .cohort-partnership-badge {
     font-size: var(--step--2);
     font-weight: 600;
     color: var(--color-muted);
@@ -264,7 +275,50 @@ const categories = ["All", ...new Set(allTeams.map(t => {
     font-size: var(--step--1);
     color: var(--color-ink-soft);
     line-height: 1.5;
-    margin-bottom: 0;
+    margin-bottom: 24px;
+  }
+
+  .team-builders-roster {
+    font-size: var(--step--2);
+    color: var(--color-muted);
+    border-top: 1px dashed var(--color-border);
+    padding-top: 16px;
+    margin-top: auto;
+  }
+
+  .team-builders-roster strong {
+    color: var(--color-lbs-blue);
+    display: block;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .builders-emails-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .builders-emails-list li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .builders-emails-list .builder-name {
+    font-weight: 700;
+    color: var(--color-ink);
+  }
+
+  .builders-emails-list .builder-email {
+    color: var(--color-lbs-blue);
+    text-decoration: underline;
+    margin-top: 2px;
+  }
+
+  .builders-emails-list .builder-email:hover {
+    color: var(--color-lbs-red);
   }
 
   .card-footer-row {
@@ -276,7 +330,7 @@ const categories = ["All", ...new Set(allTeams.map(t => {
     font-size: var(--step--2);
   }
 
-  .members-count {
+  .cohort-tag {
     color: var(--color-muted);
     font-weight: 600;
     text-transform: uppercase;
@@ -297,6 +351,34 @@ const categories = ["All", ...new Set(allTeams.map(t => {
 
   .live-action-link:hover {
     color: var(--color-lbs-red);
+  }
+
+  /* Upcoming Cohort Placeholder */
+  .upcoming-cohort-placeholder {
+    padding: 48px 0;
+  }
+
+  .placeholder-card {
+    background-color: var(--color-lbs-blue);
+    color: var(--color-white);
+    padding: clamp(32px, 6vw, 64px);
+    text-align: center;
+    border-left: 6px solid var(--color-lbs-red);
+  }
+
+  .placeholder-title {
+    color: var(--color-white);
+    font-size: var(--step-2);
+    margin-bottom: 16px;
+    font-family: var(--font-serif);
+  }
+
+  .placeholder-desc {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: var(--step-0);
+    max-width: 65ch;
+    margin: 0 auto 32px auto;
+    line-height: 1.6;
   }
 
   /* CTA */
@@ -329,36 +411,31 @@ const categories = ["All", ...new Set(allTeams.map(t => {
   }
 </style>
 
-<!-- Category filter logic -->
+<!-- Cohort filtering logic -->
 <script>
   const filterButtons = document.querySelectorAll('.filter-btn');
-  const teamCards = document.querySelectorAll('.team-card-wrapper');
+  const c1Container = document.getElementById('cohort-01-container');
+  const c2Container = document.getElementById('cohort-02-container');
 
-  if (filterButtons.length && teamCards.length) {
+  if (filterButtons.length && c1Container && c2Container) {
     filterButtons.forEach(btn => {
       btn.addEventListener('click', () => {
-        filterButtons.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        const selectedCat = btn.getAttribute('data-category');
-
-        teamCards.forEach(card => {
-          const cardCat = card.getAttribute('data-cat');
-          
-          if (selectedCat === 'all' || selectedCat === cardCat) {
-            card.style.display = 'flex';
-            setTimeout(() => {
-              card.style.opacity = '1';
-              card.style.transform = 'scale(1)';
-            }, 50);
-          } else {
-            card.style.opacity = '0';
-            card.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-              card.style.display = 'none';
-            }, 300);
-          }
+        filterButtons.forEach(b => {
+          b.classList.remove('active');
+          b.setAttribute('aria-selected', 'false');
         });
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+
+        const selectedCohort = btn.getAttribute('data-cohort');
+
+        if (selectedCohort === 'cohort-01') {
+          c2Container.style.display = 'none';
+          c1Container.style.display = 'grid';
+        } else {
+          c1Container.style.display = 'none';
+          c2Container.style.display = 'block';
+        }
       });
     });
   }

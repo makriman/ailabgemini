@@ -23,7 +23,9 @@ const { Content } = await render(team);
     <div class="container">
       <div class="hero-top-row">
         <a href="/teams/" class="back-link">&larr; Back to Directory</a>
-        <span class="badge badge-red">Cohort 01 Project</span>
+        <span class="badge badge-red">
+          {team.data.cohort === 'cohort-01' ? 'Cohort 01 · In Partnership with Google DeepMind' : 'Cohort 02'}
+        </span>
       </div>
 
       <h1 class="team-detail-title">{team.data.name}</h1>
@@ -82,27 +84,26 @@ const { Content } = await render(team);
               <li class="roster-item">
                 <span class="builder-name">{member.name}</span>
                 <span class="builder-role">{member.role}</span>
-                <!-- Safe obfuscated email block -->
-                <span class="builder-secure-email" data-user={member.email.split('@')[0]} data-domain={member.email.split('@')[1]}>
-                  Contact link hidden (safe filter)
-                </span>
+                <a href={`mailto:${member.email}`} class="builder-email-link">
+                  {member.email}
+                </a>
               </li>
             ))}
           </ul>
         </div>
 
-        <!-- Privacy Contact Policy -->
-        <div class="sidebar-box contact-policy-box">
-          <h3 class="sidebar-box-title">Connect with Team</h3>
-          <p class="policy-text">
-            To ensure the security and privacy of our student participants, raw emails are obfuscated from scraper bots. 
+        <!-- Cohort Context Box -->
+        <div class="sidebar-box info-box">
+          <h3 class="sidebar-box-title">Cohort Context</h3>
+          <p class="context-text">
+            This project was developed during {team.data.cohortLabel} of LBS AI Lab. 
           </p>
-          <p class="policy-text" style="margin-bottom: 24px;">
-            Click the button below to generate a secure mailto window containing the team participants' addresses.
-          </p>
-          <button class="btn btn-secondary" id="secure-connect-btn" style="width: 100%; display: block; text-align: center;">
-            Contact Team Safely
-          </button>
+          {team.data.cohort === 'cohort-01' && (
+            <div class="deepmind-alliance">
+              <img src="/deepmind_logo.svg" alt="Google DeepMind Logo" class="dm-sidebar-logo" />
+              <p class="dm-sidebar-text">Built in partnership with Google DeepMind.</p>
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -261,59 +262,44 @@ const { Content } = await render(team);
     margin-top: 2px;
   }
 
-  .builder-secure-email {
+  .builder-email-link {
     font-size: var(--step--2);
-    color: var(--color-muted);
+    color: var(--color-lbs-blue);
+    text-decoration: underline;
     margin-top: 4px;
-    font-style: italic;
+    transition: var(--transition-fast);
   }
 
-  .contact-policy-box {
-    background-color: var(--color-cloud);
+  .builder-email-link:hover {
+    color: var(--color-lbs-red);
   }
 
-  .policy-text {
+  .context-text {
     font-size: var(--step--1);
     color: var(--color-ink-soft);
     line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .deepmind-alliance {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    border-top: 1px solid var(--color-border);
+    padding-top: 16px;
+  }
+
+  .dm-sidebar-logo {
+    height: 24px;
+    max-width: 100%;
+    opacity: 0.95;
+  }
+
+  .dm-sidebar-text {
+    font-size: var(--step--2);
+    color: var(--color-muted);
+    margin-bottom: 0;
+    font-weight: 600;
   }
 </style>
-
-<!-- Email safe obfuscation client script -->
-<script>
-  // Setup safe mailto activation
-  const connectBtn = document.getElementById('secure-connect-btn');
-  const emailBlocks = document.querySelectorAll('.builder-secure-email');
-
-  if (emailBlocks.length) {
-    // Proactively render safe emails visually so human users can see them
-    emailBlocks.forEach(block => {
-      const user = block.getAttribute('data-user');
-      const domain = block.getAttribute('data-domain');
-      if (user && domain) {
-        block.textContent = `${user} [at] ${domain}`;
-        block.style.fontStyle = 'normal';
-        block.style.color = 'var(--color-ink-soft)';
-      }
-    });
-  }
-
-  if (connectBtn && emailBlocks.length) {
-    connectBtn.addEventListener('click', () => {
-      // Gather all addresses
-      const addresses = [];
-      emailBlocks.forEach(block => {
-        const user = block.getAttribute('data-user');
-        const domain = block.getAttribute('data-domain');
-        if (user && domain) {
-          addresses.push(`${user}@${domain}`);
-        }
-      });
-
-      if (addresses.length) {
-        const mailtoString = `mailto:${addresses.join(',')}?subject=Inquiry regarding LBS AI Lab venture project`;
-        window.location.href = mailtoString;
-      }
-    });
-  }
-</script>

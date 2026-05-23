@@ -11,7 +11,6 @@ const stats = {
   teams: 9,
   builders: 22,
   mentors: 4,
-  duration: "9 weeks",
   timeline: "10 April - 12 June 2026"
 };
 
@@ -23,57 +22,75 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
 ---
 
 <Layout>
-  <!-- 1. Hero Section -->
+  <!-- 1. Hero Section (First Fold Optimized) -->
   <section class="hero-section" aria-label="Introduction">
     <div class="container asymmetrical-grid">
       <div class="hero-content">
-        <span class="badge badge-red" style="margin-bottom: 20px;">London Business School · Data Science & AI Initiative</span>
+        <span class="badge badge-red" style="margin-bottom: 20px;">Cohort 01 · In Partnership with Google DeepMind</span>
         <h1 class="hero-headline">The AI venture lab for future operators and founders.</h1>
-        <p class="hero-subheadline">
-          LBS AI Lab gives students hands-on experience building AI products, automating workflows, and exploring how intelligent systems reshape business.
-        </p>
+        
+        <div class="hero-intro-text">
+          <p class="hero-subheadline">
+            In the new era of agentic engineering, AI-assisted coding, and vibe coding, building software is easy, cheap, and at your fingertips.
+          </p>
+          <p class="hero-thesis-detail">
+            The true bottleneck is no longer writing the code. The largest challenge is **getting real users, testing, gathering feedback, and iterating to build what people really want.** LBS AI Lab teaches you how to build fast and puts real users in front of your product from day one.
+          </p>
+        </div>
+
         <div class="hero-actions">
           <a href="#cohort-showcase" class="btn btn-primary">Explore Cohort 01</a>
-          <a href="/apply/" class="btn btn-secondary">Apply for September 2026</a>
+          <a href="/apply/" class="btn btn-secondary">Register for Cohort 02</a>
         </div>
-        <p class="hero-microcopy">Built by LBS students. Backed by the Data Science & AI Initiative.</p>
+        <p class="hero-microcopy">Built by LBS students. Supported by the Data Science & AI Initiative.</p>
       </div>
 
-      <div class="hero-side-panel">
-        <span class="panel-eyebrow">Cohort 01 Status</span>
-        <div class="panel-metric-row">
-          <span class="panel-metric-value">{stats.teams}</span>
-          <span class="panel-metric-label">Student Teams Scaffolding Prototypes</span>
+      <!-- Cohort 01 Facts box with Google DeepMind Logo (Stunning visual design) -->
+      <aside class="hero-panel" aria-label="Cohort 01 facts">
+        <div class="panel-header-block">
+          <span class="panel-eyebrow">Cohort 01</span>
+          <strong class="panel-timeline">{stats.timeline}</strong>
         </div>
-        <div class="panel-details-list">
-          <div class="panel-detail-item">
-            <strong>Timeline:</strong> {stats.timeline}
+        
+        <dl class="panel-metrics-list">
+          <div class="panel-metric-item">
+            <dt>Teams</dt>
+            <dd>{stats.teams}</dd>
           </div>
-          <div class="panel-detail-item">
-            <strong>Participants:</strong> {stats.builders} Builders
+          <div class="panel-metric-item">
+            <dt>Builders</dt>
+            <dd>{stats.builders}</dd>
           </div>
-          <div class="panel-detail-item">
-            <strong>Mentoring:</strong> {stats.mentors} Expert Mentors
+          <div class="panel-metric-item">
+            <dt>Mentors</dt>
+            <dd>{stats.mentors}</dd>
           </div>
-          <div class="panel-detail-item">
-            <strong>Focus:</strong> Hands-on Product building
+        </dl>
+
+        <div class="deepmind-alliance-badge">
+          <span class="alliance-label">In Partnership With</span>
+          <div class="logo-wrap">
+            <img src="/deepmind_logo.svg" alt="Google DeepMind Logo" class="dm-hero-logo" />
           </div>
         </div>
-      </div>
+      </aside>
     </div>
   </section>
 
-  <!-- 2. Manifesto Section -->
+  <!-- 2. Manifesto Section (The Vibe-Coding Thesis) -->
   <section class="manifesto-section" aria-label="Manifesto">
     <div class="container">
       <div class="manifesto-box">
         <h2 class="manifesto-title">We believe the future's most effective leaders will be builders.</h2>
         <div class="manifesto-body">
           <p>
-            As AI reshapes every industry, the ability to prototype products, automate workflows, and work directly with intelligent systems becomes a strategic advantage.
+            With modern agentic AI systems, a single operator can design, build, and deploy custom tools in hours. The traditional friction of engineering is disappearing.
           </p>
           <p>
-            LBS AI Lab gives students a hands-on environment to explore that future through real products, real experiments, and real execution.
+            To achieve this, **every project in LBS AI Lab must be built for a real London Business School use case.** By doing so, our builders gain direct access to a ready audience of 2,000 LBS students and a vast, global alumni network. 
+          </p>
+          <p>
+            We teach you to build fast in this new era, provide you with active sandbox environments, and deliver a ready fraternity of real users to test, feedback, and iterate on what you construct.
           </p>
         </div>
       </div>
@@ -86,31 +103,31 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
       <span class="section-eyebrow">Practical Competence</span>
       <h2 class="section-title">How the AI Lab works</h2>
       <p class="section-desc">
-        We move past AI concepts and discussions. We provide the infrastructure and timeline for LBS students to learn AI by building.
+        We strip away slide decks and abstract concepts. We focus on training you in modern rapid development and matching your systems with real user workflows.
       </p>
 
       <div class="pillars-grid">
         <div class="pillar-card">
           <div class="pillar-num">01</div>
-          <h3 class="pillar-heading">Build</h3>
+          <h3 class="pillar-heading">Vibe & Build Fast</h3>
           <p class="pillar-text">
-            Students move from idea to active prototype through intensive building cycles. We build with modern API frameworks and LLMs.
+            Learn to leverage agentic engineering and AI assistants. We teach you how to write prompts, generate configurations, and build functional MVPs at minimal cost in days.
           </p>
         </div>
 
         <div class="pillar-card">
           <div class="pillar-num">02</div>
-          <h3 class="pillar-heading">Experiment</h3>
+          <h3 class="pillar-heading">Get Real Users</h3>
           <p class="pillar-text">
-            Teams deploy their prototypes to real campus cohorts, local businesses, and pilot users to gather feedback, data, and user behaviors.
+            Every product is built for an LBS use case. You launch directly to the 2,000 LBS student fraternity and alumni network, receiving immediate, high-fidelity feedback.
           </p>
         </div>
 
         <div class="pillar-card">
           <div class="pillar-num">03</div>
-          <h3 class="pillar-heading">Transform</h3>
+          <h3 class="pillar-heading">Iterate & Learn</h3>
           <p class="pillar-text">
-            By building systems themselves, future business leaders develop deep technical fluency to drive strategic enterprise transformation.
+            We run structured review sessions with technical and product experts, teaching you how to debug based on user behaviors, rebuild, and repeat.
           </p>
         </div>
       </div>
@@ -127,17 +144,18 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
       </p>
 
       <div class="featured-grid">
-        {featuredTeams.map((team, idx) => (
+        {featuredTeams.map((team) => (
           <div class="featured-card">
             <div class="featured-card-content">
               <span class="badge badge-blue" style="margin-bottom: 12px;">{team.data.category}</span>
               <h3 class="featured-team-name">{team.data.name}</h3>
               <p class="featured-team-tagline">{team.data.tagline}</p>
               <p class="featured-team-desc">{team.data.summary}</p>
-              <div class="featured-team-meta">
-                <span><strong>Cohort:</strong> {team.data.cohortLabel}</span>
-                <span><strong>Team Size:</strong> {team.data.members.length} Builders</span>
+              
+              <div class="featured-team-builders">
+                <strong>Builders:</strong> {team.data.members.map(m => m.name).join(', ')}
               </div>
+
               <div class="featured-actions">
                 <a href={`/teams/${team.id}/`} class="btn btn-secondary">Read Case Study</a>
                 {team.data.productUrl && (
@@ -168,18 +186,18 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
     </div>
   </section>
 
-  <!-- 5. Cohort 01 Showcase -->
+  <!-- 5. Cohort 01 Showcase (No Category Filters, actual builder names) -->
   <section class="cohort-showcase-section" id="cohort-showcase" aria-label="Cohort Showcase">
     <div class="container">
       <div class="showcase-header">
         <div>
-          <span class="section-eyebrow">The Roster</span>
-          <h2 class="section-title">Meet the founding cohort</h2>
+          <span class="section-eyebrow">The Founding Batch</span>
+          <h2 class="section-title">Cohort 01 Ventures</h2>
           <p class="section-desc" style="margin-bottom: 0;">
-            Nine student teams building AI products across careers, local life, club operations, academic planning, and professional workflows.
+            Nine student teams building AI products in partnership with **Google DeepMind**, mapped to active LBS campus and professional use cases.
           </p>
         </div>
-        <a href="/cohorts/cohort-01/" class="btn btn-secondary">View cohort 01 batch</a>
+        <a href="/cohorts/cohort-01/" class="btn btn-secondary">View Cohort 01 Details</a>
       </div>
 
       <div class="showcase-grid">
@@ -188,8 +206,14 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
             <span class="team-card-category">{team.data.category}</span>
             <h3 class="team-card-title">{team.data.name}</h3>
             <p class="team-card-desc">{team.data.tagline}</p>
+            
+            <div class="team-builders-list">
+              <strong>Builders:</strong>
+              <span>{team.data.members.map(m => m.name).join(', ')}</span>
+            </div>
+
             <div class="team-card-footer">
-              <span class="team-size">{team.data.members.length} builders</span>
+              <span class="cohort-partnership-tag">Google DeepMind partner</span>
               <a href={`/teams/${team.id}/`} class="team-card-link">Profile &rarr;</a>
             </div>
           </div>
@@ -204,7 +228,7 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
       <span class="section-eyebrow">Expert Guidance</span>
       <h2 class="section-title">Technical & Product Mentors</h2>
       <p class="section-desc">
-        Sharpening product direction, technical feasibility, and launch readiness throughout the build cycle.
+        Providing active guidance on quick tech stack integrations, scope refinement, and rapid visual iterations.
       </p>
 
       <div class="mentors-grid">
@@ -215,7 +239,7 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
               <span class="mentor-badge">{mentor.mentorType}</span>
             </div>
             <p class="mentor-desc">
-              Providing active feedback on stack construction, product scope, and user interface iterations for the founding cohort.
+              Helping builders deploy code, design API pathways, and evaluate user logs throughout the 9-week sandbox.
             </p>
           </div>
         ))}
@@ -230,28 +254,28 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
         <span class="badge badge-red" style="margin-bottom: 16px;">Cohort 02 Applications</span>
         <h2 class="cta-title">Build in the September 2026 cohort.</h2>
         <p class="cta-desc">
-          Applications will open for LBS students who want to build real AI products, work in ambitious teams, and develop the hands-on fluency needed to lead AI transformation.
+          Want to learn how to build fast using modern agentic systems, launch to 2,000 real LBS students, and iterate based on high-fidelity feedback? Register your interest today.
         </p>
         <div class="cta-actions">
           <a href="/apply/" class="btn btn-primary" style="background-color: var(--color-lbs-red); color: white;">Register Interest</a>
-          <a href="/about/" class="btn btn-secondary" style="border-color: white; color: white;">Learn More</a>
+          <a href="/about/" class="btn btn-secondary" style="border-color: white; color: white;">Read Lab Thesis</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 8. DSAI Alignment block -->
+  <!-- 8. LBS broader AI Research Alignment block -->
   <section class="dsai-alignment-section" aria-label="Institutional Alignment">
     <div class="container">
       <div class="dsai-align-box">
         <div class="dsai-align-content">
-          <span class="section-eyebrow">Institutional Framework</span>
-          <h2 class="section-title" style="color: var(--color-white);">Part of the Data Science & AI Initiative</h2>
+          <span class="section-eyebrow">Explore the School's broader research on AI</span>
+          <h2 class="section-title" style="color: var(--color-white);">Alignment with London Business School's Broader Work on AI</h2>
           <p style="color: rgba(255, 255, 255, 0.85); max-width: 65ch;">
-            The Data Science & AI Initiative at London Business School advances independent evidence, practical playbooks, and responsible adoption frameworks for leaders navigating AI. LBS AI Lab extends that mission into hands-on product building for students.
+            The Data Science & AI Initiative at London Business School advances independent evidence, practical playbooks, and responsible adoption frameworks for leaders navigating AI. LBS AI Lab extends that mission into hands-on product building for students, training future business leaders to work directly with the systems shaping industry.
           </p>
           <a href="https://www.london.edu/faculty-and-research/data-science-and-ai-initiative" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color: var(--color-lbs-red); color: var(--color-white); background-color: var(--color-lbs-red);">
-            Visit the DSAI Initiative website
+            Visit the DSAI Initiative Website
           </a>
         </div>
       </div>
@@ -260,13 +284,11 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
 </Layout>
 
 <style>
-  /* Premium Homepage specific styles */
-
-  /* 1. Hero Styling */
+  /* 1. Hero Styling (Optimized First Fold) */
   .hero-section {
     background-color: var(--color-lbs-blue);
-    padding-top: clamp(64px, 8vw, 120px);
-    padding-bottom: clamp(64px, 8vw, 120px);
+    padding-top: clamp(48px, 6vw, 96px);
+    padding-bottom: clamp(48px, 6vw, 96px);
     color: var(--color-white);
     border-bottom: 8px solid var(--color-lbs-red);
     position: relative;
@@ -292,17 +314,32 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
 
   .hero-headline {
     color: var(--color-white);
-    font-size: clamp(2rem, 4.5vw, 3.6rem);
+    font-size: clamp(2rem, 4vw, 3.4rem);
     margin-bottom: 24px;
     line-height: 1.1;
   }
 
+  .hero-intro-text {
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
   .hero-subheadline {
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--color-white);
     font-size: var(--step-1);
-    margin-bottom: 40px;
-    font-family: var(--font-sans);
+    font-weight: 700;
+    line-height: 1.4;
+    font-family: var(--font-serif);
+    margin-bottom: 0;
+  }
+
+  .hero-thesis-detail {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: var(--step-0);
     line-height: 1.5;
+    margin-bottom: 0;
   }
 
   .hero-actions {
@@ -329,14 +366,24 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
     margin-bottom: 0;
   }
 
-  /* Side metrics panel */
-  .hero-side-panel {
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+  /* Stunning visual side panel for Cohort 01 facts & Google DeepMind Logo */
+  .hero-panel {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.14);
     padding: 32px;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  }
+
+  .panel-header-block {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 16px;
+    margin-bottom: 24px;
   }
 
   .panel-eyebrow {
@@ -345,44 +392,82 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
     letter-spacing: 0.1em;
     color: var(--color-lbs-red);
     font-weight: 700;
-    margin-bottom: 16px;
+    margin-bottom: 4px;
   }
 
-  .panel-metric-row {
+  .panel-timeline {
+    font-size: var(--step-0);
+    color: var(--color-white);
+    font-family: var(--font-serif);
+  }
+
+  .panel-metrics-list {
     display: flex;
     flex-direction: column;
-    margin-bottom: 24px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-    padding-bottom: 20px;
+    gap: 16px;
+    margin-bottom: 32px;
   }
 
-  .panel-metric-value {
-    font-family: var(--font-serif);
-    font-size: var(--step-4);
-    font-weight: 700;
-    line-height: 1;
-    color: var(--color-white);
+  .panel-metric-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 8px;
   }
 
-  .panel-metric-label {
+  .panel-metric-item dt {
     font-size: var(--step--1);
     color: rgba(255, 255, 255, 0.7);
-    margin-top: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em;
   }
 
-  .panel-details-list {
+  .panel-metric-item dd {
+    font-size: var(--step-1);
+    font-weight: 700;
+    color: var(--color-white);
+    font-family: var(--font-serif);
+  }
+
+  .deepmind-alliance-badge {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    align-items: flex-start;
+    gap: 8px;
   }
 
-  .panel-detail-item {
-    font-size: var(--step--1);
-    color: rgba(255, 255, 255, 0.85);
+  .alliance-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 700;
   }
 
-  .panel-detail-item strong {
-    color: var(--color-white);
+  .logo-wrap {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition-fast);
+  }
+
+  .logo-wrap:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .dm-hero-logo {
+    height: 20px;
+    max-width: 100%;
+    filter: brightness(0) invert(1); /* Ensure it displays cleanly in white on dark bg */
   }
 
   /* 2. Manifesto Styling */
@@ -575,26 +660,28 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
     font-size: var(--step-0);
     font-weight: 600;
     color: var(--color-lbs-red);
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     font-family: var(--font-sans);
   }
 
   .featured-team-desc {
     font-size: var(--step--1);
     color: var(--color-ink-soft);
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     line-height: 1.6;
   }
 
-  .featured-team-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+  .featured-team-builders {
     font-size: var(--step--2);
     color: var(--color-muted);
     margin-bottom: 32px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    line-height: 1.4;
+  }
+
+  .featured-team-builders strong {
+    color: var(--color-lbs-blue);
   }
 
   .featured-actions {
@@ -774,9 +861,24 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
   .team-card-desc {
     font-size: var(--step--1);
     color: var(--color-ink-soft);
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     line-height: 1.5;
+  }
+
+  .team-builders-list {
+    font-size: var(--step--2);
+    color: var(--color-muted);
+    border-top: 1px dashed var(--color-border);
+    padding-top: 12px;
+    margin-bottom: 20px;
+    line-height: 1.4;
     flex-grow: 1;
+  }
+
+  .team-builders-list strong {
+    color: var(--color-lbs-blue);
+    display: block;
+    margin-bottom: 4px;
   }
 
   .team-card-footer {
@@ -788,10 +890,11 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
     font-size: var(--step--2);
   }
 
-  .team-size {
+  .cohort-partnership-tag {
     color: var(--color-muted);
     font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 
   .team-card-link {
@@ -908,7 +1011,7 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
     gap: 16px;
   }
 
-  /* 8. DSAI Alignment block */
+  /* 8. broader LBS AI Research block */
   .dsai-alignment-section {
     background-color: #0b0c2a;
     padding-top: clamp(64px, 8vw, 120px);

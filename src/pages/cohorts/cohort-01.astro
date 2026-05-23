@@ -7,28 +7,22 @@ import peopleData from '../../data/people.json';
 const allTeams = await getCollection('teams');
 const cohortTeams = allTeams.filter(t => t.data.cohort === 'cohort-01');
 
-// Extract unique categories for client-side filter
-const categories = ["All", ...new Set(cohortTeams.map(t => {
-  // Normalize categories for simple selector (e.g. "Admissions / Funding discovery" -> "Admissions")
-  const mainPart = t.data.category.split('/')[0].trim();
-  return mainPart;
-}))];
-
 // Filter Cohort 01 mentors
 const mentors = peopleData.filter(p => p.role === 'Mentor');
 ---
 
 <Layout 
   title="Cohort 01 (Spring 2026) — LBS AI Lab Founding Batch" 
-  description="Meet the founding cohort of LBS AI Lab. Running from 10 April to 12 June 2026, featuring nine ambitious student teams and four expert mentors."
+  description="Meet the founding cohort of LBS AI Lab, in partnership with Google DeepMind. Nine student teams building AI products across LBS campuses."
 >
   <!-- Hero Section -->
   <section class="cohort-hero" aria-label="Cohort 01 Introduction">
     <div class="container">
-      <span class="badge badge-red" style="margin-bottom: 20px;">Cohort 01 · Spring 2026</span>
+      <span class="badge badge-red" style="margin-bottom: 20px;">Cohort 01 · In Partnership with Google DeepMind</span>
       <h1 class="cohort-headline">The founding cohort of LBS AI Lab.</h1>
+      
       <p class="cohort-subheadline">
-        From 10 April to 12 June 2026, nine student teams are building AI products across LBS student life, career development, club operations, academic planning, funding discovery, and professional workflows.
+        From 10 April to 12 June 2026, nine student teams are building AI products designed to solve active LBS campus and operational use cases. In the new era of vibe coding and agentic assistants, we teach builders how to iterate rapidly in front of an active fraternity of 2,000 students.
       </p>
 
       <div class="cohort-metrics-grid">
@@ -42,53 +36,50 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
         </div>
         <div class="metric-block">
           <span class="metric-num">4</span>
-          <span class="metric-lbl">Product & Tech Mentors</span>
+          <span class="metric-lbl">Technical & Product Mentors</span>
         </div>
         <div class="metric-block">
-          <span class="metric-num">9 Wks</span>
-          <span class="metric-lbl">Build Timeline</span>
+          <span class="metric-num">Google</span>
+          <span class="metric-lbl">DeepMind Partner</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Interactive Teams Grid with Category Filtering -->
+  <!-- Dynamic Teams Grid (No category filters, shows builder names and public emails) -->
   <section class="teams-grid-section" id="teams-section" aria-label="Cohort Teams">
     <div class="container">
       <span class="section-eyebrow">Cohort Portfolio</span>
-      <h2 class="section-title">Nine products built by students</h2>
+      <h2 class="section-title">Nine ventures shipped</h2>
       <p class="section-desc">
-        Filter the founding cohort's directory by product category to explore specific venture directions.
+        Explore the complete batch of products constructed during the Spring 2026 build sandbox.
       </p>
-
-      <!-- Category Filter Navigation -->
-      <div class="category-filters" role="tablist" aria-label="Product categories">
-        {categories.map((cat, idx) => (
-          <button 
-            class={`filter-btn ${idx === 0 ? 'active' : ''}`}
-            data-category={cat === 'All' ? 'all' : cat.toLowerCase().replace(/[^a-z0-9]/g, '-')}
-            role="tab"
-            aria-selected={idx === 0 ? 'true' : 'false'}
-          >
-            {cat}
-          </button>
-        ))}
-      </div>
 
       <!-- Teams Cards Grid -->
       <div class="showcase-grid" id="teams-showcase-container">
         {cohortTeams.map(team => {
-          const categorySlug = team.data.category.split('/')[0].trim().toLowerCase().replace(/[^a-z0-9]/g, '-');
-          
           return (
-            <div class="team-card-wrap" data-cat={categorySlug}>
+            <div class="team-card-wrap">
               <div class="team-card">
                 <span class="team-card-category">{team.data.category}</span>
                 <h3 class="team-card-title">{team.data.name}</h3>
                 <p class="team-card-desc">{team.data.tagline}</p>
+                
+                <div class="team-builders-info">
+                  <strong>Builders & Contact:</strong>
+                  <ul class="builders-emails-list">
+                    {team.data.members.map(m => (
+                      <li>
+                        <span class="builder-name">{m.name}</span>
+                        <a href={`mailto:${m.email}`} class="builder-email">{m.email}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
                 <div class="team-card-footer">
-                  <span class="team-size">{team.data.members.length} builders</span>
-                  <a href={`/teams/${team.id}/`} class="team-card-link">View Profile &rarr;</a>
+                  <span class="cohort-alliance-lbl">Google DeepMind partner</span>
+                  <a href={`/teams/${team.id}/`} class="team-card-link">Profile &rarr;</a>
                 </div>
               </div>
             </div>
@@ -106,7 +97,7 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
           <span class="section-eyebrow">Roster guidance</span>
           <h2 class="section-title">Cohort 01 Mentors</h2>
           <p>
-            Technical and product mentors support teams as they move from idea to prototype, refining database schema, choosing APIs, and ensuring product focus.
+            Experts from product, venture scaling, and engineering who guide students on prompt strategies, schema setup, and rapid iterations.
           </p>
           <div class="mentors-list-layout">
             {mentors.map(mentor => (
@@ -118,6 +109,7 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
                 <p class="mentor-row-desc">
                   Working with teams weekly to review code, troubleshoot interface flows, and prepare for Showcase Day.
                 </p>
+                <a href={`mailto:${mentor.email}`} class="mentor-email-link">{mentor.email}</a>
               </div>
             ))}
           </div>
@@ -130,7 +122,7 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
               Cohort 01 concludes on **12 June 2026**.
             </p>
             <p class="commit-text">
-              Teams will present their final functional applications, demonstrating user interaction, database persistence, and strategic AI automation to London Business School stakeholders.
+              In this new era, building is easy—getting real feedback is what teaches. Teams will demo their live applications to LBS faculty, Google DeepMind researchers, and external operators.
             </p>
             <a href="/contact/" class="btn btn-secondary" style="border-color: white; color: white; display: inline-block; width: 100%; text-align: center;">Request Showcase Invite</a>
           </div>
@@ -224,44 +216,10 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
     border-bottom: 1px solid var(--color-border);
   }
 
-  .category-filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-bottom: 40px;
-    border-bottom: 1px solid var(--color-border);
-    padding-bottom: 24px;
-  }
-
-  .filter-btn {
-    background-color: var(--color-warm-white);
-    color: var(--color-lbs-blue);
-    border: 1px solid var(--color-border);
-    padding: 8px 16px;
-    font-family: var(--font-sans);
-    font-size: var(--step--2);
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    cursor: pointer;
-    transition: var(--transition-fast);
-  }
-
-  .filter-btn:hover {
-    background-color: var(--color-cloud);
-    border-color: var(--color-lbs-blue);
-  }
-
-  .filter-btn.active {
-    background-color: var(--color-lbs-blue);
-    color: var(--color-white);
-    border-color: var(--color-lbs-blue);
-  }
-
   .showcase-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 32px;
   }
 
   @media (min-width: 768px) {
@@ -278,7 +236,6 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
 
   .team-card-wrap {
     display: flex;
-    transition: opacity 0.3s ease, transform 0.3s ease;
   }
 
   .team-card {
@@ -318,7 +275,50 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
     color: var(--color-ink-soft);
     margin-bottom: 24px;
     line-height: 1.5;
+  }
+
+  .team-builders-info {
+    font-size: var(--step--2);
+    color: var(--color-muted);
+    border-top: 1px dashed var(--color-border);
+    padding-top: 16px;
+    margin-bottom: 24px;
     flex-grow: 1;
+  }
+
+  .team-builders-info strong {
+    color: var(--color-lbs-blue);
+    display: block;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .builders-emails-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .builders-emails-list li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .builders-emails-list .builder-name {
+    font-weight: 700;
+    color: var(--color-ink);
+  }
+
+  .builders-emails-list .builder-email {
+    color: var(--color-lbs-blue);
+    text-decoration: underline;
+    margin-top: 2px;
+  }
+
+  .builders-emails-list .builder-email:hover {
+    color: var(--color-lbs-red);
   }
 
   .team-card-footer {
@@ -330,10 +330,11 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
     font-size: var(--step--2);
   }
 
-  .team-size {
+  .cohort-alliance-lbl {
     color: var(--color-muted);
     font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 
   .team-card-link {
@@ -365,6 +366,9 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
     background-color: var(--color-white);
     border: 1px solid var(--color-border);
     padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .mentor-row-info {
@@ -374,6 +378,7 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
     margin-bottom: 12px;
     border-bottom: 1px solid var(--color-cloud);
     padding-bottom: 8px;
+    width: 100%;
   }
 
   .mentor-row-name {
@@ -393,7 +398,17 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
     font-size: var(--step--1);
     color: var(--color-ink-soft);
     line-height: 1.5;
-    margin-bottom: 0;
+    margin-bottom: 12px;
+  }
+
+  .mentor-email-link {
+    font-size: var(--step--2);
+    color: var(--color-lbs-blue);
+    text-decoration: underline;
+  }
+
+  .mentor-email-link:hover {
+    color: var(--color-lbs-red);
   }
 
   .mentor-commitment-block {
@@ -453,39 +468,3 @@ const mentors = peopleData.filter(p => p.role === 'Mentor');
     line-height: 1.6;
   }
 </style>
-
-<!-- Client side interactive script for premium category filter -->
-<script>
-  const filterButtons = document.querySelectorAll('.filter-btn');
-  const teamCards = document.querySelectorAll('.team-card-wrap');
-
-  if (filterButtons.length && teamCards.length) {
-    filterButtons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        // Toggle Active class
-        filterButtons.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        const selectedCat = btn.getAttribute('data-category');
-
-        teamCards.forEach(card => {
-          const cardCat = card.getAttribute('data-cat');
-          
-          if (selectedCat === 'all' || selectedCat === cardCat) {
-            card.style.display = 'flex';
-            setTimeout(() => {
-              card.style.opacity = '1';
-              card.style.transform = 'scale(1)';
-            }, 50);
-          } else {
-            card.style.opacity = '0';
-            card.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-              card.style.display = 'none';
-            }, 300);
-          }
-        });
-      });
-    });
-  }
-</script>
