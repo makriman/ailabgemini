@@ -1,46 +1,60 @@
-# Astro Starter Kit: Basics
+# AI Lab Gemini
 
-```sh
-npm create astro@latest -- --template basics
+An Astro prototype for an AI venture lab landing site and cohort showcase.
+
+## Mission
+
+This prototype explores how an AI lab can present the harder part of building with models: getting real users, gathering feedback, and iterating toward something people genuinely want.
+
+## What This Repository Contains
+
+Astro site experiment for an AI venture lab, with cohort statistics, Google DeepMind partnership references, team content collections, mentors, application pages, and responsive editorial sections.
+
+## Highlights
+
+- Landing page for Cohort 01 and Cohort 02 interest.
+- Team pages generated from Markdown content.
+- Mentor and people data pulled from JSON.
+- Simple static-site architecture suitable for fast iteration.
+
+## Tech Stack
+
+- Astro
+- TypeScript
+- Astro Content Collections
+- Fontsource Inter and Source Serif
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Quality Checks
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+```bash
+npm run build
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Repository Notes
 
-## 🧞 Commands
+- This is a prototype sibling of the more complete LBS AI Lab site.
 
-All commands are run from the root of the project, from a terminal:
+## Contributing
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Contributions are welcome. The best contributions are specific, tested, and grounded in the product mission. Good places to help include documentation, accessibility, tests, bug reports, UI polish, data validation, and safer AI behavior.
 
-## 👀 Want to learn more?
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Security
+
+Please do not open public issues for secrets, auth bypasses, data exposure, provider key leaks, or abuse vectors. Follow [SECURITY.md](SECURITY.md).
+
+## Code of Conduct
+
+This project follows [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). Be direct, kind, and useful.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
