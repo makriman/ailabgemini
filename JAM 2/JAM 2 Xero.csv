@@ -1,0 +1,437 @@
+Date,Contact,Description,GL Account Code,GL Account Name,Tax Type,Money In (GBP),Money Out (GBP),Type,Reconciled
+2024-03-13,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,10.00,,MONEY_IN,True
+2024-03-13,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,5.00,MONEY_OUT,True
+2024-03-14,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,85000.00,,MONEY_IN,True
+2024-03-22,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,5.00,MONEY_OUT,True
+2024-04-06,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,5000.00,MONEY_OUT,True
+2024-04-12,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,50000.00,,MONEY_IN,True
+2024-04-12,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,100000.00,,MONEY_IN,True
+2024-04-20,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,15000.00,MONEY_OUT,True
+2024-04-27,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,85000.00,MONEY_OUT,True
+2024-05-01,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,25000.00,MONEY_OUT,True
+2024-05-08,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,100000.00,,MONEY_IN,True
+2024-05-14,Jam Worldwide Limited,Jam Worldwide,091,Business Savings Account,NONE,,65000.00,MONEY_OUT,True
+2024-05-24,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,20000.00,MONEY_OUT,True
+2024-05-30,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,70000.00,,MONEY_IN,True
+2024-06-04,MUNSHI SAMAD,COUTTS & CO CLG,260,Other Revenue,OUTPUT2,18608.00,,MONEY_IN,True
+2024-06-11,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,40000.00,,MONEY_IN,True
+2024-06-14,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,40000.00,MONEY_OUT,True
+2024-06-20,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,10000.00,MONEY_OUT,True
+2024-06-22,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,65000.00,MONEY_OUT,True
+2024-07-05,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,50000.00,,MONEY_IN,True
+2024-08-06,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,140000.00,,MONEY_IN,True
+2024-08-09,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,25000.00,MONEY_OUT,True
+2024-08-13,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,25000.00,MONEY_OUT,True
+2024-08-16,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,140000.00,MONEY_OUT,True
+2024-09-07,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,50000.00,,MONEY_IN,True
+2024-09-20,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,25000.00,MONEY_OUT,True
+2024-09-20,COOPERAGE CONTENT LIMITED,Jam Worldwide Ltd,200,Sales,OUTPUT2,500.00,,MONEY_IN,True
+2024-09-21,Cooperage Content Limited,Jam Worldwide Ltd,401,Audit & Accountancy fees,INPUT2,,500.00,MONEY_OUT,True
+2024-09-22,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,75000.00,MONEY_OUT,True
+2024-10-11,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,40000.00,,MONEY_IN,True
+2024-10-25,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,25000.00,MONEY_OUT,True
+2024-10-31,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,25000.00,MONEY_OUT,True
+2024-11-12,COOPERAGE CONTENT LIMITED,Cooperage Ltd,200,Sales,OUTPUT2,4281.00,,MONEY_IN,True
+2024-11-15,COOPERAGE CONTENT LIMITED,Cooperage Ltd,200,Sales,OUTPUT2,882.00,,MONEY_IN,True
+2024-11-21,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,20000.00,MONEY_OUT,True
+2024-11-26,COOPERAGE CONTENT LIMITED,Cooperage Ltd,200,Sales,OUTPUT2,7608.00,,MONEY_IN,True
+2024-11-28,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,45000.00,MONEY_OUT,True
+2024-11-29,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,90000.00,,MONEY_IN,True
+2024-12-13,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,115000.00,MONEY_OUT,True
+2025-01-03,COOPERAGE CONTENT LIMITED,Cooperage Ltd,200,Sales,OUTPUT2,816.00,,MONEY_IN,True
+2025-01-29,COOPERAGE CONTENT LIMITED,Cooperage Ltd,200,Sales,OUTPUT2,20952.00,,MONEY_IN,True
+2025-02-14,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,19757.53,MONEY_OUT,True
+2025-02-15,Cooperage Content Limited,Jam Worldwide Ltd,401,Audit & Accountancy fees,INPUT2,,2075.00,MONEY_OUT,True
+2025-03-03,COOPERAGE CONTENT LIMITED,Cooperage Ltd,200,Sales,OUTPUT2,4458.00,,MONEY_IN,True
+2025-03-13,COOPERAGE CONTENT LIMITED,Cooperage Ltd,200,Sales,OUTPUT2,768.00,,MONEY_IN,True
+2025-03-17,Cooperage Content Limited,Jam Worldwide Ltd,401,Audit & Accountancy fees,INPUT2,,2075.00,MONEY_OUT,True
+2025-04-01,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,75000.00,,MONEY_IN,True
+2025-04-03,COOPERAGE CONTENT LIMITED,Cooperage Ltd,200,Sales,OUTPUT2,13911.00,,MONEY_IN,True
+2025-04-09,I W G     S,05560 1350355 2024,260,Other Revenue,OUTPUT2,4968.00,,MONEY_IN,True
+2025-04-15,Cooperage Content Limited,Jam Worldwide Ltd,401,Audit & Accountancy fees,INPUT2,,2075.00,MONEY_OUT,True
+2025-04-16,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,15000.00,MONEY_OUT,True
+2025-04-29,COOPERAGE CONTENT LIMITED,Cooperage Ltd,200,Sales,OUTPUT2,384.00,,MONEY_IN,True
+2025-05-05,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,10000.00,MONEY_OUT,True
+2025-05-05,COOPERAGE CONTENT LIMITED,Cooperage Ltd,200,Sales,OUTPUT2,432.00,,MONEY_IN,True
+2025-05-19,COOPERAGE CONTENT LIMITED,Cooperage 205123,200,Sales,OUTPUT2,168.00,,MONEY_IN,True
+2025-05-20,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,90000.00,,MONEY_IN,True
+2025-05-27,Jam Worldwide Limited,Jam Worldwide AL,091,Business Savings Account,NONE,,100000.00,MONEY_OUT,True
+2025-05-30,COOPERAGE CONTENT LIMITED,INV 5111 5108 5107,200,Sales,OUTPUT2,47262.00,,MONEY_IN,True
+2025-06-12,Jam Worldwide Limited,Funds,091,Business Savings Account,NONE,,5000.00,MONEY_OUT,True
+2025-06-18,COOPERAGE CONTENT LIMITED,INV 054,200,Sales,OUTPUT2,192.00,,MONEY_IN,True
+2025-06-27,COOPERAGE CONTENT LIMITED,Wonderhood 205147,200,Sales,OUTPUT2,6348.00,,MONEY_IN,True
+2025-07-03,Jam Worldwide Limited,Funds,091,Business Savings Account,NONE,,20000.00,MONEY_OUT,True
+2025-07-24,COOPERAGE CONTENT LIMITED,Jam Assembly x 4,200,Sales,OUTPUT2,768.00,,MONEY_IN,True
+2025-07-25,COOPERAGE CONTENT LIMITED,Jam 159,200,Sales,OUTPUT2,289.00,,MONEY_IN,True
+2025-08-08,Thomas Duffy trading as Duffy Films,INV 185,300,Purchases,INPUT2,,510.00,MONEY_OUT,True
+2025-08-19,Jam Worldwide Limited,Transfer,091,Business Savings Account,NONE,,45000.00,MONEY_OUT,True
+2025-08-21,COOPERAGE CONTENT LIMITED,Coop Assembly Lon,200,Sales,OUTPUT2,192.00,,MONEY_IN,True
+2025-08-27,Jam Worldwide Limited,Transfer,091,Business Savings Account,NONE,,23000.00,MONEY_OUT,True
+2025-08-29,COOPERAGE CONTENT LIMITED,205185,200,Sales,OUTPUT2,3254.00,,MONEY_IN,True
+2025-08-29,Wise,T1315866527,091,Business Savings Account,NONE,,681.79,MONEY_OUT,True
+2025-09-04,Jam Worldwide Limited,Transfer,091,Business Savings Account,NONE,,15000.00,MONEY_OUT,True
+2025-09-06,Jam Worldwide Limited,Transfer,091,Business Savings Account,NONE,,6000.00,MONEY_OUT,True
+2025-09-20,COOPERAGE CONTENT LIMITED,20Something,200,Sales,OUTPUT2,1980.00,,MONEY_IN,True
+2025-10-08,COOPERAGE CONTENT LIMITED,Jam Assembly 0076,200,Sales,OUTPUT2,384.00,,MONEY_IN,True
+2025-10-17,Jam Worldwide Limited,Transfer,091,Business Savings Account,NONE,,3000.00,MONEY_OUT,True
+2025-10-31,COOPERAGE CONTENT LIMITED,Wonderhood,200,Sales,OUTPUT2,1308.00,,MONEY_IN,True
+2025-11-11,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,100000.00,,MONEY_IN,True
+2025-11-13,JAM WORLDWIDE LIMITED,JAM WORLDWIDE ALLI,200,Sales,OUTPUT2,61000.00,,MONEY_IN,True
+2025-11-14,T Marchant Limited,Jam 0923 0922,300,Purchases,INPUT2,,810.00,MONEY_OUT,True
+2025-11-19,JAM WORLDWIDE LIMITED,CASS539809000000QH,200,Sales,OUTPUT2,224.00,,MONEY_IN,True
+2025-11-21,Wise,T1425053002,091,Business Savings Account,NONE,,2994.06,MONEY_OUT,True
+2025-11-21,Made By CVS Ltd,Jam 003,401,Audit & Accountancy fees,INPUT2,,420.00,MONEY_OUT,True
+2025-11-21,Michael watson,Jam 62 63,300,Purchases,INPUT2,,700.00,MONEY_OUT,True
+2025-11-21,Silversign Limited,1457 Jam,469,Rent,INPUT2,,3000.00,MONEY_OUT,True
+2025-11-21,Wise,T1425048117,091,Business Savings Account,NONE,,5870.99,MONEY_OUT,True
+2025-11-21,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,16000.00,,MONEY_IN,True
+2025-11-22,Click Lab Digital,Jam 0405,400,Advertising & Marketing,INPUT2,,1404.00,MONEY_OUT,True
+2025-11-25,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,10500.00,,MONEY_IN,True
+2025-11-26,HARRY LANE,HWCC Sponsorship,478,Directors' Remuneration,NONE,,600.00,MONEY_OUT,True
+2025-11-26,NEIL LANE,Jam expenses,478,Directors' Remuneration,NONE,,248.31,MONEY_OUT,True
+2025-11-28,David William Lane,IntrvlMnthDay,478,Directors' Remuneration,NONE,,666.66,MONEY_OUT,True
+2025-11-28,LUCIE LOUGHLIN,Jam Salary Feb 25,478,Directors' Remuneration,NONE,,788.80,MONEY_OUT,True
+2025-11-28,Cooperage Content Limited,Monthly Admin Feb,401,Audit & Accountancy fees,INPUT2,,90.00,MONEY_OUT,True
+2025-11-28,NEIL LANE,Jam Salary Feb 25,478,Directors' Remuneration,NONE,,757.60,MONEY_OUT,True
+2025-11-28,Modulo 2 Ltd,4257,300,Purchases,INPUT2,,1250.00,MONEY_OUT,True
+2025-11-28,Paul Mitchison Mon,Jam 046,412,Consulting,INPUT2,,1000.00,MONEY_OUT,True
+2025-11-28,Marian Popescu,Jam Salary Feb 25,477,Salaries,NONE,,3465.08,MONEY_OUT,True
+2025-11-28,HARRY LANE,Jam Salary Feb 25,478,Directors' Remuneration,NONE,,4367.99,MONEY_OUT,True
+2025-11-28,Wise,T1434523157,091,Business Savings Account,NONE,,3866.58,MONEY_OUT,True
+2025-11-28,Gurdeep Singh Soun,096,300,Purchases,INPUT2,,624.00,MONEY_OUT,True
+2025-11-28,NEIL LANE,Feb 25 Dividend,478,Directors' Remuneration,NONE,,7654.00,MONEY_OUT,True
+2025-11-28,Jamesy Ltd,182 186 188,300,Purchases,INPUT2,,1220.00,MONEY_OUT,True
+2025-11-28,Wise,T1434528761,091,Business Savings Account,NONE,,7473.68,MONEY_OUT,True
+2025-11-28,Poppy Byrne,Jam Salary Feb 25,477,Salaries,NONE,,3969.18,MONEY_OUT,True
+2025-11-28,Felicity Price,Jam Salary Feb 25,477,Salaries,NONE,,3709.35,MONEY_OUT,True
+2025-11-28,LOAD CONSULTING LT,0023,412,Consulting,INPUT2,,2500.00,MONEY_OUT,True
+2025-11-28,LUCIE LOUGHLIN,Feb 25 Dividend,478,Directors' Remuneration,NONE,,7654.00,MONEY_OUT,True
+2025-11-28,Resonance Language,Jam 333 332,300,Purchases,INPUT2,,3951.36,MONEY_OUT,True
+2025-12-04,LUCIE LOUGHLIN,FC shoot petrol,478,Directors' Remuneration,NONE,,200.00,MONEY_OUT,True
+2025-12-05,IWOCA Hydrogen Ltd,Jam Worldwide Ltd,437,Interest Paid,NONE,,3375.45,MONEY_OUT,True
+2025-12-05,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,8000.00,,MONEY_IN,True
+2025-12-06,American Express Services Europe Limited,3.74208E+14,437,Interest Paid,NONE,,3179.19,MONEY_OUT,True
+2025-12-07,COOPERAGE CONTENT LIMITED,Vice,200,Sales,OUTPUT2,432.00,,MONEY_IN,True
+2025-12-12,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,12000.00,,MONEY_IN,True
+2025-12-14,Andreas Nicodemou,Jam 260 261,300,Purchases,INPUT2,,850.00,MONEY_OUT,True
+2025-12-14,Wise,T1454742273,091,Business Savings Account,NONE,,19949.08,MONEY_OUT,True
+2025-12-14,B W FILM,1808,300,Purchases,INPUT2,,1978.79,MONEY_OUT,True
+2025-12-14,Adstream,Jam Worldwide,400,Advertising & Marketing,INPUT2,,6111.60,MONEY_OUT,True
+2025-12-14,Susumi Ltd,128,401,Audit & Accountancy fees,INPUT2,,420.00,MONEY_OUT,True
+2025-12-14,Sue Terry Voices,Jam vr62857,300,Purchases,INPUT2,,4086.00,MONEY_OUT,True
+2025-12-14,T Marchant Limited,0925 0924,300,Purchases,INPUT2,,2025.00,MONEY_OUT,True
+2025-12-14,Charlie Lane,Jam Various,478,Directors' Remuneration,NONE,,3300.00,MONEY_OUT,True
+2025-12-14,Hobsons,47212 47108,300,Purchases,INPUT2,,11108.40,MONEY_OUT,True
+2025-12-17,Nat West Bounce Ba,Jam World Wide Ltd,437,Interest Paid,NONE,,517.69,MONEY_OUT,True
+2025-12-18,IMD Media,Jam GB81239,300,Purchases,INPUT2,,42.00,MONEY_OUT,True
+2025-12-18,Silversign Limited,1479,469,Rent,INPUT2,,3000.00,MONEY_OUT,True
+2025-12-20,COOPERAGE CONTENT LIMITED,Assembly,200,Sales,OUTPUT2,1344.00,,MONEY_IN,True
+2025-12-22,NEIL LANE,Expenses,478,Directors' Remuneration,NONE,,155.15,MONEY_OUT,True
+2025-12-24,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,10000.00,,MONEY_IN,True
+2025-12-28,Felicity Price,Jam Salary,477,Salaries,NONE,,3852.47,MONEY_OUT,True
+2025-12-28,Marian Popescu,Jam Salary,477,Salaries,NONE,,3465.08,MONEY_OUT,True
+2025-12-28,LUCIE LOUGHLIN,Jam Salary,478,Directors' Remuneration,NONE,,788.80,MONEY_OUT,True
+2025-12-28,NEIL LANE,Jam Salary,478,Directors' Remuneration,NONE,,757.60,MONEY_OUT,True
+2025-12-28,David William Lane,IntrvlMnthDay,478,Directors' Remuneration,NONE,,666.66,MONEY_OUT,True
+2025-12-28,HARRY LANE,Jam Salary,478,Directors' Remuneration,NONE,,4321.19,MONEY_OUT,True
+2025-12-28,Poppy Byrne,Jam Salary,477,Salaries,NONE,,3536.73,MONEY_OUT,True
+2025-12-28,NEIL LANE,Expenses,478,Directors' Remuneration,NONE,,101.21,MONEY_OUT,True
+2025-12-29,HARRY LANE,Jam Expenses,478,Directors' Remuneration,NONE,,450.02,MONEY_OUT,True
+2025-12-29,LUCIE LOUGHLIN,Jam Expenses,478,Directors' Remuneration,NONE,,170.73,MONEY_OUT,True
+2025-12-31,Jordan Bezants,2503 2504,300,Purchases,INPUT2,,5660.00,MONEY_OUT,True
+2025-12-31,Wise,T1476715692,091,Business Savings Account,NONE,,3792.22,MONEY_OUT,True
+2025-12-31,Jam Worldwide Limi,Efektura 00425 003,300,Purchases,INPUT2,,5907.00,MONEY_OUT,True
+2025-12-31,Modulo 2 Ltd,Jam 4279,300,Purchases,INPUT2,,1250.00,MONEY_OUT,True
+2025-12-31,Wise,T1477171086,091,Business Savings Account,NONE,,7738.81,MONEY_OUT,True
+2025-12-31,SKIPTON BUSINESS FINANCE LIMITED,Skipton Business Finance Limited,270,Interest Income,NONE,17000.00,,MONEY_IN,True
+2025-12-31,YAKETY YAK ALL MOU,JAM 536430101,300,Purchases,INPUT2,,2340.00,MONEY_OUT,True
+2025-12-31,Jam Worldwide Limi,StudioSmileWise,300,Purchases,INPUT2,,2621.00,MONEY_OUT,True
+2025-12-31,Thomas Duffy trading as Duffy Films,0045 JAM,300,Purchases,INPUT2,,510.00,MONEY_OUT,True
+2025-12-31,Wise,T1476687474,091,Business Savings Account,NONE,,100.00,MONEY_OUT,True
+2025-12-31,softcat plc,JAM 1674781 167477,461,Printing & Stationery,INPUT2,,7293.64,MONEY_OUT,True
+2025-12-31,Andreas Nicodemou,0273,300,Purchases,INPUT2,,425.00,MONEY_OUT,True
+2025-12-31,Wise,T1476696140,091,Business Savings Account,NONE,,3788.61,MONEY_OUT,True
+2025-12-31,LOAD CONSULTING LT,Jam 025,412,Consulting,INPUT2,,2500.00,MONEY_OUT,True
+2025-12-31,Silversign Limited,1502,469,Rent,INPUT2,,3000.00,MONEY_OUT,True
+2025-12-31,Rick Bateson Ltd,JAM 2502A 2502B,300,Purchases,INPUT2,,2715.00,MONEY_OUT,True
+2025-12-31,Wise,T1476683013,091,Business Savings Account,NONE,,13192.11,MONEY_OUT,True
+2025-12-31,SHAUN BOND T/A PUR,REFUND PPB,260,Other Revenue,OUTPUT2,1100.00,,MONEY_IN,True
+2025-12-31,Canada Life,Jam ww E331851L,482,Pensions Costs,NONE,,313.48,MONEY_OUT,True
+2025-12-31,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,51000.00,,MONEY_IN,True
+2025-12-31,Resonance Language,351,300,Purchases,INPUT2,,648.00,MONEY_OUT,True
+2025-12-31,Paul Mitchison Mon,047,412,Consulting,INPUT2,,1500.00,MONEY_OUT,True
+2025-12-31,Resonance Language,JAM 340 343,300,Purchases,INPUT2,,1506.60,MONEY_OUT,True
+2026-01-01,Rick Bateson - Chr,Balance  2502A + B,493,Travel - National,INPUT2,,0.60,MONEY_OUT,True
+2026-01-01,Cooperage Content,0093,412,Consulting,INPUT2,,90.00,MONEY_OUT,True
+2026-01-03,Wise,T1482785898,091,Business Savings Account,NONE,,12619.03,MONEY_OUT,True
+2026-01-05,IWOCA Hydrogen Ltd,Jam Worldwide LTD,437,Interest Paid,NONE,,5000.00,MONEY_OUT,True
+2026-01-07,NEIL LANE,April 25 Divi pt1,478,Directors' Remuneration,NONE,,4400.00,MONEY_OUT,True
+2026-01-07,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,2000.00,,MONEY_IN,True
+2026-01-07,LUCIE LOUGHLIN,April 25 Divi PT1,478,Directors' Remuneration,NONE,,4400.00,MONEY_OUT,True
+2026-01-11,NEIL LANE,April 25 Divi pt2,478,Directors' Remuneration,NONE,,4400.00,MONEY_OUT,True
+2026-01-11,LUCIE LOUGHLIN,April 25 Divi pt2,478,Directors' Remuneration,NONE,,4400.00,MONEY_OUT,True
+2026-01-11,Incredible Sports Company,Jam WW,300,Purchases,INPUT2,,1200.00,MONEY_OUT,True
+2026-01-11,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,9000.00,,MONEY_IN,True
+2026-01-12,NEIL LANE,Vodafone payment,478,Directors' Remuneration,NONE,,145.00,MONEY_OUT,True
+2026-01-14,UKglobal Broking Group Ltd,Jam 542848992,433,Insurance,EXEMPTINPUT,,3732.40,MONEY_OUT,True
+2026-01-17,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,4900.00,,MONEY_IN,True
+2026-01-17,Nat West Bounce Ba,Jam World Wide Ltd,437,Interest Paid,NONE,,517.69,MONEY_OUT,True
+2026-01-22,T Marchant Limited,Jam 0926 0927,300,Purchases,INPUT2,,2452.50,MONEY_OUT,True
+2026-01-22,Qmuli Limited,2502051 2503059,463,IT Software and Consumables,INPUT2,,57.60,MONEY_OUT,True
+2026-01-22,Adstream,Multiple Jam,400,Advertising & Marketing,INPUT2,,5342.40,MONEY_OUT,True
+2026-01-22,IMAJ SESLENDIRME EFEKT VE FILM YA,/RFB/REFUND,260,Other Revenue,OUTPUT2,188.00,,MONEY_IN,True
+2026-01-23,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,9000.00,,MONEY_IN,True
+2026-01-24,Sippdeal Trustees Limited,EP428348ZYIB,482,Pensions Costs,NONE,,1500.00,MONEY_OUT,True
+2026-01-24,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,53000.00,,MONEY_IN,True
+2026-01-25,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,64000.00,,MONEY_IN,True
+2026-01-26,NEIL LANE,Jam Expenses,478,Directors' Remuneration,NONE,,74.95,MONEY_OUT,True
+2026-01-26,LUCIE LOUGHLIN,Jam Expenses,478,Directors' Remuneration,NONE,,72.82,MONEY_OUT,True
+2026-01-28,HARRY LANE,April 25 Salary,478,Directors' Remuneration,NONE,,1029.50,MONEY_OUT,True
+2026-01-28,IWOCA Hydrogen Ltd,Jam Worldwide LTD,437,Interest Paid,NONE,,10000.00,MONEY_OUT,True
+2026-01-28,Marian Popescu,April 25 Salary,477,Salaries,NONE,,3861.22,MONEY_OUT,True
+2026-01-28,David William Lane,IntrvlMnthDay,478,Directors' Remuneration,NONE,,666.66,MONEY_OUT,True
+2026-01-28,LUCIE LOUGHLIN,Jam Expenses,478,Directors' Remuneration,NONE,,5.00,MONEY_OUT,True
+2026-01-28,NEIL LANE,April 25 Salary,478,Directors' Remuneration,NONE,,1047.50,MONEY_OUT,True
+2026-01-28,HARRY LANE,April 25 Dividend,478,Directors' Remuneration,NONE,,4800.00,MONEY_OUT,True
+2026-01-28,LUCIE LOUGHLIN,April 25 Dividend,478,Directors' Remuneration,NONE,,8800.00,MONEY_OUT,True
+2026-01-28,NEIL LANE,April 25 Dividend,478,Directors' Remuneration,NONE,,8800.00,MONEY_OUT,True
+2026-01-28,Felicity Price,April 25 salary,477,Salaries,NONE,,3863.22,MONEY_OUT,True
+2026-01-28,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,22000.00,,MONEY_IN,True
+2026-01-28,Poppy Byrne,April 25 Salary,477,Salaries,NONE,,3867.62,MONEY_OUT,True
+2026-01-28,LUCIE LOUGHLIN,April 25 Salary,478,Directors' Remuneration,NONE,,983.30,MONEY_OUT,True
+2026-01-29,LOAD CONSULTING LT,027,412,Consulting,INPUT2,,2500.00,MONEY_OUT,True
+2026-01-29,Cooperage Content,Monthly Admin,412,Consulting,INPUT2,,90.00,MONEY_OUT,True
+2026-01-29,Modulo 2 Ltd,4301 4305,300,Purchases,INPUT2,,3050.00,MONEY_OUT,True
+2026-01-29,Paul Mitchison Mon,048,412,Consulting,INPUT2,,1000.00,MONEY_OUT,True
+2026-01-29,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,38000.00,,MONEY_IN,True
+2026-01-30,Adstream,Jam 100827944,400,Advertising & Marketing,INPUT2,,132.00,MONEY_OUT,True
+2026-01-30,Resonance Language,350 344,300,Purchases,INPUT2,,22383.90,MONEY_OUT,True
+2026-01-30,Are We Nearly There Yet? Ltd,2503,300,Purchases,INPUT2,,6585.60,MONEY_OUT,True
+2026-01-30,DEVINE VOICES,305301 304201,300,Purchases,INPUT2,,3428.40,MONEY_OUT,True
+2026-01-30,Etdc Digital Media,075,400,Advertising & Marketing,INPUT2,,250.00,MONEY_OUT,True
+2026-01-30,Loughlin Consulting Limited,Jam 001,412,Consulting,INPUT2,,1500.00,MONEY_OUT,True
+2026-01-30,PatrickMFilms,270,300,Purchases,INPUT2,,775.00,MONEY_OUT,True
+2026-01-30,Charlie Lane,139 140,478,Directors' Remuneration,NONE,,2760.00,MONEY_OUT,True
+2026-01-30,Movement In Media,712 jam 0325,401,Audit & Accountancy fees,INPUT2,,425.00,MONEY_OUT,True
+2026-01-30,Gurdeep Singh Soun,117,300,Purchases,INPUT2,,234.00,MONEY_OUT,True
+2026-01-30,Wise,T1518211829,091,Business Savings Account,NONE,,5510.47,MONEY_OUT,True
+2026-01-30,Wise,T1518217187,091,Business Savings Account,NONE,,14516.24,MONEY_OUT,True
+2026-02-01,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,8900.00,,MONEY_IN,True
+2026-02-06,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,3800.00,,MONEY_IN,True
+2026-02-06,L Juanek,Jam 001,300,Purchases,INPUT2,,540.00,MONEY_OUT,True
+2026-02-07,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,1300.00,,MONEY_IN,True
+2026-02-08,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,4000.00,,MONEY_IN,True
+2026-02-13,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,4700.00,,MONEY_IN,True
+2026-02-14,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,16400.00,,MONEY_IN,True
+2026-02-14,HMRC VAT,262770887,820,VAT,NONE,,37251.02,MONEY_OUT,True
+2026-02-16,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,1700.00,,MONEY_IN,True
+2026-02-17,Nat West Bounce Ba,Jam World Wide Ltd,437,Interest Paid,NONE,,517.69,MONEY_OUT,True
+2026-02-19,Wick & Tallow Bespoke Ltd,Jam 0779,420,Entertainment-100% business,INPUT2,,600.00,MONEY_OUT,True
+2026-02-23,T Marchant Limited,Jam,300,Purchases,INPUT2,,540.00,MONEY_OUT,True
+2026-02-25,TP Consultancy,Jam WW,412,Consulting,INPUT2,,55.44,MONEY_OUT,True
+2026-02-27,HARRY LANE,Expresso Displays,478,Directors' Remuneration,NONE,,849.00,MONEY_OUT,True
+2026-02-27,SKIPTON BUSINESS FINANCE LIMITED,Skipton Business Finance Limited,270,Interest Income,NONE,19000.00,,MONEY_IN,True
+2026-02-27,LUCIE LOUGHLIN,Jam May 25 Salary,478,Directors' Remuneration,NONE,,983.10,MONEY_OUT,True
+2026-02-28,softcat plc,Jam 4990 4983,461,Printing & Stationery,INPUT2,,998.02,MONEY_OUT,True
+2026-02-28,David William Lane,IntrvlMnthDay,478,Directors' Remuneration,NONE,,666.66,MONEY_OUT,True
+2026-02-28,Modulo 2 Ltd,4328,300,Purchases,INPUT2,,1250.00,MONEY_OUT,True
+2026-02-28,Felicity Price,Jam May 25 Salary,477,Salaries,NONE,,3863.21,MONEY_OUT,True
+2026-02-28,NEIL LANE,May 25 Dividend,478,Directors' Remuneration,NONE,,8800.00,MONEY_OUT,True
+2026-02-28,Gurdeep Singh Soun,118,300,Purchases,INPUT2,,429.00,MONEY_OUT,True
+2026-02-28,LUCIE LOUGHLIN,May 25 Dividend,478,Directors' Remuneration,NONE,,8800.00,MONEY_OUT,True
+2026-02-28,LOAD CONSULTING LT,029,412,Consulting,INPUT2,,2500.00,MONEY_OUT,True
+2026-02-28,Etdc Digital Media,081,400,Advertising & Marketing,INPUT2,,250.00,MONEY_OUT,True
+2026-02-28,COOPERAGE CONTENT LIMITED,Cooperage,200,Sales,OUTPUT2,810.00,,MONEY_IN,True
+2026-02-28,HARRY LANE,May 25 Dividend,478,Directors' Remuneration,NONE,,4800.00,MONEY_OUT,True
+2026-02-28,HARRY LANE,Jam May 25 Salary,478,Directors' Remuneration,NONE,,1029.50,MONEY_OUT,True
+2026-02-28,Marian Popescu,Jam May 25 Salary,477,Salaries,NONE,,3861.21,MONEY_OUT,True
+2026-02-28,COOPERAGE CONTENT LIMITED,Cooperage,200,Sales,OUTPUT2,5566.00,,MONEY_IN,True
+2026-02-28,Jamesy Ltd,193,300,Purchases,INPUT2,,120.00,MONEY_OUT,True
+2026-02-28,Paul Mitchison Mon,048,412,Consulting,INPUT2,,2500.00,MONEY_OUT,True
+2026-02-28,Bird & Blend Tea Ltd,33161,420,Entertainment-100% business,INPUT2,,600.00,MONEY_OUT,True
+2026-02-28,Poppy Byrne,Jam May 25 Salary,477,Salaries,NONE,,3867.21,MONEY_OUT,True
+2026-02-28,NEIL LANE,Jam May Salary,478,Directors' Remuneration,NONE,,1047.50,MONEY_OUT,True
+2026-02-28,COOPERAGE CONTENT LIMITED,Cooperage,200,Sales,OUTPUT2,1584.00,,MONEY_IN,True
+2026-02-28,Fifty Technology Limited,6986,710,Office Equipment,INPUT2,,4947.90,MONEY_OUT,True
+2026-02-28,VAT Set-Aside,VAT set-aside transfer,091,Business Savings Account,NONE,3156.97,,MONEY_IN,True
+2026-02-28,VAT Set-Aside,VAT set-aside transfer,091,Business Savings Account,NONE,,3156.97,MONEY_OUT,True
+2026-03-02,NEIL LANE,Personal expenses,478,Directors' Remuneration,NONE,,70.06,MONEY_OUT,True
+2026-03-03,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,21000.00,,MONEY_IN,True
+2026-03-04,Cooperage Content Limited,Monthly admin,401,Audit & Accountancy fees,INPUT2,,90.00,MONEY_OUT,True
+2026-03-04,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,3000.00,,MONEY_IN,True
+2026-03-05,Are We Nearly There Yet? Ltd,2506,300,Purchases,INPUT2,,4582.20,MONEY_OUT,True
+2026-03-05,L2sb Studios Limited,LSB 00390,300,Purchases,INPUT2,,8072.74,MONEY_OUT,True
+2026-03-05,SKIPTON BUSINESS FINANCE LIMITED,Skipton Business Finance Limited,270,Interest Income,NONE,3000.00,,MONEY_IN,True
+2026-03-05,Jam Worldwide Limi,Studio Smile 53 52,300,Purchases,INPUT2,,4000.00,MONEY_OUT,True
+2026-03-05,Loughlin Consulting Limited,Monthly Fee,412,Consulting,INPUT2,,1500.00,MONEY_OUT,True
+2026-03-05,Resonance Language,362 367 368 369,300,Purchases,INPUT2,,16743.00,MONEY_OUT,True
+2026-03-05,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,3750.00,,MONEY_IN,True
+2026-03-05,Rick Bateson - Chr,5048 504A 504C,493,Travel - National,INPUT2,,6579.65,MONEY_OUT,True
+2026-03-10,Heads Up Production Ltd,Returned payment,260,Other Revenue,OUTPUT2,,289.20,MONEY_OUT,True
+2026-03-11,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,3600.00,,MONEY_IN,True
+2026-03-12,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,17000.00,,MONEY_IN,True
+2026-03-13,MR C E FOSTER,1CF2025jam,300,Purchases,INPUT2,,425.00,MONEY_OUT,True
+2026-03-13,ELP AUDIO LTD,2239,300,Purchases,INPUT2,,510.00,MONEY_OUT,True
+2026-03-13,Chris Saggers,1006,300,Purchases,INPUT2,,180.00,MONEY_OUT,True
+2026-03-13,Charlie Lane,141,478,Directors' Remuneration,NONE,,1020.00,MONEY_OUT,True
+2026-03-13,Gurdeep Singh Soun,134,300,Purchases,INPUT2,,78.00,MONEY_OUT,True
+2026-03-17,Nat West Bounce Ba,Jam World Wide Ltd,437,Interest Paid,NONE,,517.69,MONEY_OUT,True
+2026-03-20,Carleasing Midlands Limited,Jam CLM7068,437,Interest Paid,NONE,,249.99,MONEY_OUT,True
+2026-03-20,Sally Skinner,SS393,300,Purchases,INPUT2,,250.00,MONEY_OUT,True
+2026-03-23,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,18500.00,,MONEY_IN,True
+2026-03-25,TP Consultancy,Jam WW,412,Consulting,INPUT2,,55.44,MONEY_OUT,True
+2026-03-26,Lyon Air conditioning Services Limited,Jam 2102,473,Repairs & Maintenance,INPUT2,,178.80,MONEY_OUT,True
+2026-03-26,NEIL LANE,Jam personal exps,478,Directors' Remuneration,NONE,,300.40,MONEY_OUT,True
+2026-03-26,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,3000.00,,MONEY_IN,True
+2026-03-27,NEIL LANE,Jam June 25 Divi,478,Directors' Remuneration,NONE,,8800.00,MONEY_OUT,True
+2026-03-27,Marian Popescu,Jam June. 25 Salar,477,Salaries,NONE,,3860.81,MONEY_OUT,True
+2026-03-27,Felicity Price,Jam June 25 Salary,477,Salaries,NONE,,3930.44,MONEY_OUT,True
+2026-03-27,HARRY LANE,Jam June 25 Divi,478,Directors' Remuneration,NONE,,4800.00,MONEY_OUT,True
+2026-03-27,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,4900.00,,MONEY_IN,True
+2026-03-27,LUCIE LOUGHLIN,Jam June 25 Salary,478,Directors' Remuneration,NONE,,983.10,MONEY_OUT,True
+2026-03-27,LUCIE LOUGHLIN,Jam June 25 Divi,478,Directors' Remuneration,NONE,,8800.00,MONEY_OUT,True
+2026-03-27,Poppy Byrne,Jam June 25 Salary,477,Salaries,NONE,,3867.61,MONEY_OUT,True
+2026-03-27,HARRY LANE,Jam June 25 salary,478,Directors' Remuneration,NONE,,1029.50,MONEY_OUT,True
+2026-03-27,NEIL LANE,Jam June 25 Salary,478,Directors' Remuneration,NONE,,1047.50,MONEY_OUT,True
+2026-03-28,David William Lane,IntrvlMnthDay,478,Directors' Remuneration,NONE,,666.66,MONEY_OUT,True
+2026-03-30,LOAD CONSULTING LT,031 Jam,412,Consulting,INPUT2,,2500.00,MONEY_OUT,True
+2026-03-30,Paul Mitchison Mon,049,412,Consulting,INPUT2,,4000.00,MONEY_OUT,True
+2026-03-31,VAT Set-Aside,VAT set-aside transfer,091,Business Savings Account,NONE,3156.97,,MONEY_IN,True
+2026-03-31,VAT Set-Aside,VAT set-aside transfer,091,Business Savings Account,NONE,,3156.97,MONEY_OUT,True
+2026-04-01,Edmund Casterton,Jam87,300,Purchases,INPUT2,,250.00,MONEY_OUT,True
+2026-04-01,Resonance Language,Siteground 50% Jam,300,Purchases,INPUT2,,172.73,MONEY_OUT,True
+2026-04-04,Loughlin Consulting Limited,Jam,412,Consulting,INPUT2,,1500.00,MONEY_OUT,True
+2026-04-04,MOT Models,Jam 207250,300,Purchases,INPUT2,,9600.00,MONEY_OUT,True
+2026-04-04,Wise,T1613342167,091,Business Savings Account,NONE,,1794.04,MONEY_OUT,True
+2026-04-04,Charlie Lane,Jam 142,478,Directors' Remuneration,NONE,,510.00,MONEY_OUT,True
+2026-04-04,Modulo 2 Ltd,4364 Jam,300,Purchases,INPUT2,,1250.00,MONEY_OUT,True
+2026-04-04,ELP AUDIO LTD,Jam 2240,300,Purchases,INPUT2,,1530.00,MONEY_OUT,True
+2026-04-04,Riddingtons Limited,Jam 21843,300,Purchases,INPUT2,,2340.00,MONEY_OUT,True
+2026-04-04,SKIPTON BUSINESS FINANCE LIMITED,Skipton Business Finance Limited,270,Interest Income,NONE,35000.00,,MONEY_IN,True
+2026-04-04,T Marchant Limited,Jam tml1010,300,Purchases,INPUT2,,324.00,MONEY_OUT,True
+2026-04-04,Adstream,Jam Various,400,Advertising & Marketing,INPUT2,,3984.00,MONEY_OUT,True
+2026-04-04,LEX AUTOLEASE,987127V00567922,260,Other Revenue,OUTPUT2,440.00,,MONEY_IN,True
+2026-04-04,Wise,T1613328125,091,Business Savings Account,NONE,,9492.47,MONEY_OUT,True
+2026-04-11,Wise,T1623949741,091,Business Savings Account,NONE,,12072.29,MONEY_OUT,True
+2026-04-11,SILVERSIGN LIMITED,BARBON DEP RTN,260,Other Revenue,OUTPUT2,4526.00,,MONEY_IN,True
+2026-04-11,T Marchant Limited,10 17 Jam,300,Purchases,INPUT2,,540.00,MONEY_OUT,True
+2026-04-11,COOPERAGE CONTENT LIMITED,Wonderhood,200,Sales,OUTPUT2,3990.00,,MONEY_IN,True
+2026-04-11,Jamesy Ltd,204 206,300,Purchases,INPUT2,,765.00,MONEY_OUT,True
+2026-04-11,SKIPTON BUSINESS FINANCE LIMITED,Skipton Business Finance Limited,270,Interest Income,NONE,25000.00,,MONEY_IN,True
+2026-04-11,Charlie Lane,143 144 145,478,Directors' Remuneration,NONE,,2520.00,MONEY_OUT,True
+2026-04-14,HMRC P11D,120PL014052642513,820,VAT,NONE,,2545.77,MONEY_OUT,True
+2026-04-15,SCN Freight Partners,Freight partner invoice,300,Purchases,INPUT2,,7000.00,MONEY_OUT,True
+2026-04-17,Nat West Bounce Ba,Jam World Wide Ltd,437,Interest Paid,NONE,,517.69,MONEY_OUT,True
+2026-04-18,Another Tongue,JT152455,300,Purchases,INPUT2,,4168.02,MONEY_OUT,True
+2026-04-18,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,30000.00,,MONEY_IN,True
+2026-04-18,S R Casciello-Rogers,Jam,300,Purchases,INPUT2,,9409.96,MONEY_OUT,True
+2026-04-18,Wise,T1633249544,091,Business Savings Account,NONE,,15505.17,MONEY_OUT,True
+2026-04-21,Qmuli Limited,250548 250456,463,IT Software and Consumables,INPUT2,,268.80,MONEY_OUT,True
+2026-04-24,SKIPTON BUSINESS FINANCE LIMITED,Skipton Business Finance Limited,270,Interest Income,NONE,55000.00,,MONEY_IN,True
+2026-04-25,TP Consultancy,Jam WW,412,Consulting,INPUT2,,55.44,MONEY_OUT,True
+2026-04-25,Wise,T1642960210,091,Business Savings Account,NONE,,232.76,MONEY_OUT,True
+2026-04-25,COOPERAGE CONTENT LIMITED,Wonderhood,200,Sales,OUTPUT2,4929.00,,MONEY_IN,True
+2026-04-26,HARRY LANE,Expenses monitor,478,Directors' Remuneration,NONE,,849.00,MONEY_OUT,True
+2026-04-28,Poppy Byrne,Jam July 25 salary,477,Salaries,NONE,,3848.82,MONEY_OUT,True
+2026-04-28,LUCIE LOUGHLIN,Jam July 25 Divi,478,Directors' Remuneration,NONE,,8800.00,MONEY_OUT,True
+2026-04-28,David William Lane,IntrvlMnthDay,478,Directors' Remuneration,NONE,,666.66,MONEY_OUT,True
+2026-04-28,NEIL LANE,July 25 Divi,478,Directors' Remuneration,NONE,,8800.00,MONEY_OUT,True
+2026-04-28,Felicity Price,Jam July 25 salary,477,Salaries,NONE,,3846.82,MONEY_OUT,True
+2026-04-28,HARRY LANE,Jam July 25 Divi,478,Directors' Remuneration,NONE,,4800.00,MONEY_OUT,True
+2026-04-28,Marian Popescu,Jam July 25 salary,477,Salaries,NONE,,3849.22,MONEY_OUT,True
+2026-04-28,HARRY LANE,Jam July 25 salary,478,Directors' Remuneration,NONE,,1017.50,MONEY_OUT,True
+2026-04-28,NEIL LANE,Jam July 25 salary,478,Directors' Remuneration,NONE,,1047.50,MONEY_OUT,True
+2026-04-28,LUCIE LOUGHLIN,Jam July 25 salary,478,Directors' Remuneration,NONE,,949.10,MONEY_OUT,True
+2026-04-29,Wise,T1648948505,091,Business Savings Account,NONE,,1819.56,MONEY_OUT,True
+2026-04-30,Modulo 2 Ltd,4392,300,Purchases,INPUT2,,1250.00,MONEY_OUT,True
+2026-04-30,LOAD CONSULTING LT,Jam 0033,412,Consulting,INPUT2,,2500.00,MONEY_OUT,True
+2026-04-30,Etdc Digital Media,092,400,Advertising & Marketing,INPUT2,,250.00,MONEY_OUT,True
+2026-04-30,Paul Mitchison Mon,Jam 50,412,Consulting,INPUT2,,3000.00,MONEY_OUT,True
+2026-04-30,VAT Set-Aside,VAT set-aside transfer,091,Business Savings Account,NONE,3156.97,,MONEY_IN,True
+2026-04-30,VAT Set-Aside,VAT set-aside transfer,091,Business Savings Account,NONE,,3156.97,MONEY_OUT,True
+2026-05-06,Resonance Language,Jam Various,300,Purchases,INPUT2,,20473.20,MONEY_OUT,True
+2026-05-06,Jamesy Ltd,0207 Jam,300,Purchases,INPUT2,,675.00,MONEY_OUT,True
+2026-05-06,Wise,T1662523151,091,Business Savings Account,NONE,,6251.19,MONEY_OUT,True
+2026-05-06,YAKETY YAK ALL MOU,561610101,300,Purchases,INPUT2,,6780.00,MONEY_OUT,True
+2026-05-06,Leon Hargreaves Photography Limited,LAH2056,300,Purchases,INPUT2,,3000.00,MONEY_OUT,True
+2026-05-06,Gurdeep Singh Soun,146,300,Purchases,INPUT2,,1677.00,MONEY_OUT,True
+2026-05-06,Pixel Advertising,516 Jam,400,Advertising & Marketing,INPUT2,,3510.00,MONEY_OUT,True
+2026-05-06,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,56000.00,,MONEY_IN,True
+2026-05-06,M R Price,27168 27167,478,Directors' Remuneration,NONE,,200.00,MONEY_OUT,True
+2026-05-06,Clearcut Sound,53407,300,Purchases,INPUT2,,240.00,MONEY_OUT,True
+2026-05-06,Sue Terry Voices,VR64667,300,Purchases,INPUT2,,10020.00,MONEY_OUT,True
+2026-05-07,IWOCA Hydrogen Ltd,Jam Worldwide LTD,437,Interest Paid,NONE,,1472.99,MONEY_OUT,True
+2026-05-08,S L Collins,1417 Jam,300,Purchases,INPUT2,,1986.25,MONEY_OUT,True
+2026-05-08,Loughlin Consulting Limited,Jam 004,412,Consulting,INPUT2,,1500.00,MONEY_OUT,True
+2026-05-11,HMRC VAT,262770887,820,VAT,NONE,,16912.30,MONEY_OUT,True
+2026-05-11,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,66000.00,,MONEY_IN,True
+2026-05-11,Hobsons,Jam 060602,300,Purchases,INPUT2,,14886.00,MONEY_OUT,True
+2026-05-11,MR C E FOSTER,2CF2025JAM,300,Purchases,INPUT2,,425.00,MONEY_OUT,True
+2026-05-12,Cooperage Content,110 124,412,Consulting,INPUT2,,180.00,MONEY_OUT,True
+2026-05-12,Pixel Advertising,Jam 525,400,Advertising & Marketing,INPUT2,,390.00,MONEY_OUT,True
+2026-05-12,Wise,T1670582107,091,Business Savings Account,NONE,,3313.70,MONEY_OUT,True
+2026-05-12,UKglobal Broking Group Ltd,Jam 546688236,433,Insurance,EXEMPTINPUT,,732.39,MONEY_OUT,True
+2026-05-12,Pixel Advertising,Jam 515,400,Advertising & Marketing,INPUT2,,330.00,MONEY_OUT,True
+2026-05-12,Neunie Limited,1705,300,Purchases,INPUT2,,1850.00,MONEY_OUT,True
+2026-05-15,DEVINE VOICES,3152/00/01,300,Purchases,INPUT2,,1382.40,MONEY_OUT,True
+2026-05-15,COOPERAGE CONTENT LIMITED,Jam 205396,200,Sales,OUTPUT2,84621.00,,MONEY_IN,True
+2026-05-15,SCN Freight Partners,Freight partner invoice,300,Purchases,INPUT2,,11000.00,MONEY_OUT,True
+2026-05-17,Nat West Bounce Ba,Jam World Wide Ltd,437,Interest Paid,NONE,,517.69,MONEY_OUT,True
+2026-05-19,NEIL LANE,Amazon Exps.,478,Directors' Remuneration,NONE,,354.00,MONEY_OUT,True
+2026-05-20,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,3500.00,,MONEY_IN,True
+2026-05-21,Andreas Nicodemou,Jam 334,300,Purchases,INPUT2,,425.00,MONEY_OUT,True
+2026-05-21,E R Ryan,Jam,300,Purchases,INPUT2,,176.60,MONEY_OUT,True
+2026-05-21,Chris Saggers,110,300,Purchases,INPUT2,,180.00,MONEY_OUT,True
+2026-05-25,TP Consultancy,Jam WW,412,Consulting,INPUT2,,55.44,MONEY_OUT,True
+2026-05-26,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,9300.00,,MONEY_IN,True
+2026-05-27,IWOCA Hydrogen Ltd,Jam worldwide LTD,437,Interest Paid,NONE,,99712.72,MONEY_OUT,True
+2026-05-27,NEIL LANE,Personal expenses,478,Directors' Remuneration,NONE,,214.07,MONEY_OUT,True
+2026-05-27,Lucie Loughlin,Test expenses,478,Directors' Remuneration,NONE,,1.00,MONEY_OUT,True
+2026-05-27,SKIPTON BUSINESS FINANCE LIMITED,Skipton Business Finance Limited,270,Interest Income,NONE,100000.00,,MONEY_IN,True
+2026-05-28,Felicity Price,Jam salary Aug 25,477,Salaries,NONE,,3859.21,MONEY_OUT,True
+2026-05-28,NEIL LANE,Jam Divi Aug 25,478,Directors' Remuneration,NONE,,8800.00,MONEY_OUT,True
+2026-05-28,LUCIE LOUGHLIN,Jam Divi Aug 25,478,Directors' Remuneration,NONE,,8800.00,MONEY_OUT,True
+2026-05-28,HARRY LANE,Jam personal Exps,478,Directors' Remuneration,NONE,,277.09,MONEY_OUT,True
+2026-05-28,Poppy Byrne,Jam salary Aug 25,477,Salaries,NONE,,3848.82,MONEY_OUT,True
+2026-05-28,Marian Popescu,Jam Salary Aug 25,477,Salaries,NONE,,3858.01,MONEY_OUT,True
+2026-05-28,David William Lane,IntrvlMnthDay,478,Directors' Remuneration,NONE,,666.66,MONEY_OUT,True
+2026-05-28,LUCIE LOUGHLIN,Jam salary Aug 25,478,Directors' Remuneration,NONE,,949.10,MONEY_OUT,True
+2026-05-28,HARRY LANE,Jam Divi Aug 25,478,Directors' Remuneration,NONE,,4800.00,MONEY_OUT,True
+2026-05-28,HARRY LANE,Jam salary Aug 25,478,Directors' Remuneration,NONE,,1017.50,MONEY_OUT,True
+2026-05-28,Bloom and Wild,Jam 1312,420,Entertainment-100% business,INPUT2,,92.65,MONEY_OUT,True
+2026-05-28,Lucie Loughlin,Jam Expenses,478,Directors' Remuneration,NONE,,298.11,MONEY_OUT,True
+2026-05-28,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,20000.00,,MONEY_IN,True
+2026-05-28,NEIL LANE,Jam salary Aug 25,478,Directors' Remuneration,NONE,,1047.50,MONEY_OUT,True
+2026-05-29,Modulo 2 Ltd,Jam 4422,300,Purchases,INPUT2,,1574.00,MONEY_OUT,True
+2026-05-29,SK BUS FIN FRPAY,001669-001,270,Interest Income,NONE,3800.00,,MONEY_IN,True
+2026-05-29,Etdc Digital Media,Jam 098,400,Advertising & Marketing,INPUT2,,250.00,MONEY_OUT,True
+2026-05-29,Paul Mitchison Mon,Jam 51,412,Consulting,INPUT2,,3750.00,MONEY_OUT,True
+2026-05-29,COOPERAGE CONTENT LIMITED,Jam Wonderhood,200,Sales,OUTPUT2,13476.00,,MONEY_IN,True
+2026-05-29,LOAD CONSULTING LT,Jam 0035,412,Consulting,INPUT2,,2500.00,MONEY_OUT,True
+2026-05-29,Qmuli Limited,Jam 0051 0057,463,IT Software and Consumables,INPUT2,,1117.20,MONEY_OUT,True
+2026-05-30,VAT Set-Aside,VAT set-aside transfer,091,Business Savings Account,NONE,3156.97,,MONEY_IN,True
+2026-05-30,VAT Set-Aside,VAT set-aside transfer,091,Business Savings Account,NONE,,3156.97,MONEY_OUT,True
+2026-05-31,Adstream,Jam Various,400,Advertising & Marketing,INPUT2,,7804.80,MONEY_OUT,True
+2026-05-31,Wise,T1698843171,091,Business Savings Account,NONE,,2727.49,MONEY_OUT,True
+2026-05-31,Wise,T1698837465,091,Business Savings Account,NONE,,2174.65,MONEY_OUT,True
+2026-05-31,Charlie Lane,146 147 148,478,Directors' Remuneration,NONE,,2250.00,MONEY_OUT,True
+2026-05-31,B W FILM,1903,300,Purchases,INPUT2,,3133.44,MONEY_OUT,True
+2026-05-31,Resonance Language,424 425 429,300,Purchases,INPUT2,,7008.30,MONEY_OUT,True
+2026-05-31,Loughlin Consulting Limited,Jam 005,412,Consulting,INPUT2,,1500.00,MONEY_OUT,True
+2026-06-04,Emma live limited,Neil LaneMMMPF,300,Purchases,INPUT2,,2400.00,MONEY_OUT,True
+2026-06-08,Cooperage Content,INV 131,412,Consulting,INPUT2,,90.00,MONEY_OUT,True
+2026-06-10,Wise,T1715275102,091,Business Savings Account,NONE,,10350.86,MONEY_OUT,True
+2026-06-15,SCN Freight Partners,Freight partner invoice,300,Purchases,INPUT2,,15000.00,MONEY_OUT,True
+2026-06-17,Nat West Bounce Ba,Jam World Wide Ltd,437,Interest Paid,NONE,,517.69,MONEY_OUT,True
+2026-06-22,HARRY LANE,Jam personal exps,478,Directors' Remuneration,NONE,,51.88,MONEY_OUT,True
+2026-06-22,Neil Lane,Jam expenses,478,Directors' Remuneration,NONE,,170.06,MONEY_OUT,True
+2026-06-30,VAT Set-Aside,VAT set-aside transfer,091,Business Savings Account,NONE,3156.97,,MONEY_IN,True
+2026-06-30,VAT Set-Aside,VAT set-aside transfer,091,Business Savings Account,NONE,,3156.97,MONEY_OUT,True
+2026-07-01,SCN Regular Customers,Customer receipts,200,Sales,OUTPUT2,11900.00,,MONEY_IN,True
+2026-07-01,SCN Regular Customers,Customer receipts,200,Sales,OUTPUT2,11900.00,,MONEY_IN,True
+2026-07-01,SCN Regular Customers,Customer receipts,200,Sales,OUTPUT2,11900.00,,MONEY_IN,True
+2026-07-01,SCN Freight Partners,Freight partner invoice,300,Purchases,INPUT2,,19000.00,MONEY_OUT,True
+2026-07-01,SCN Director Dividend,Director dividend,478,Directors' Remuneration,NONE,,55000.00,MONEY_OUT,True
+2026-07-01,HMRC VAT,Quarterly VAT payment,820,VAT,NONE,,38000.00,MONEY_OUT,True
+2026-07-01,VAT Set-Aside,VAT set-aside transfer,091,Business Savings Account,NONE,3156.97,,MONEY_IN,True
+2026-07-01,VAT Set-Aside,VAT set-aside transfer,091,Business Savings Account,NONE,,3156.97,MONEY_OUT,True

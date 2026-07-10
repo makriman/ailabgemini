@@ -1,0 +1,437 @@
+Date,Account,Description,Counterparty,Money In (GBP),Money Out (GBP),Balance (GBP),Cashew Category
+2024-03-13,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,10.00,,10.00,revenue
+2024-03-13,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,5.00,5.00,transfers_internal
+2024-03-14,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,85000.00,,85005.00,revenue
+2024-03-22,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,5.00,85000.00,transfers_internal
+2024-04-06,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,5000.00,80000.00,transfers_internal
+2024-04-12,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,50000.00,,130000.00,revenue
+2024-04-12,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,100000.00,,230000.00,revenue
+2024-04-20,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,15000.00,215000.00,transfers_internal
+2024-04-27,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,85000.00,130000.00,transfers_internal
+2024-05-01,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,25000.00,105000.00,transfers_internal
+2024-05-08,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,100000.00,,205000.00,revenue
+2024-05-14,JAM Business Account,Jam Worldwide,Jam Worldwide Limited,,65000.00,140000.00,transfers_internal
+2024-05-24,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,20000.00,120000.00,transfers_internal
+2024-05-30,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,70000.00,,190000.00,revenue
+2024-06-04,JAM Business Account,COUTTS & CO CLG,Munshi Samad,18608.00,,208608.00,directors_contributions
+2024-06-11,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,40000.00,,248608.00,revenue
+2024-06-14,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,40000.00,208608.00,transfers_internal
+2024-06-20,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,10000.00,198608.00,transfers_internal
+2024-06-22,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,65000.00,133608.00,transfers_internal
+2024-07-05,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,50000.00,,183608.00,revenue
+2024-08-06,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,140000.00,,323608.00,revenue
+2024-08-09,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,25000.00,298608.00,transfers_internal
+2024-08-13,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,25000.00,273608.00,transfers_internal
+2024-08-16,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,140000.00,133608.00,transfers_internal
+2024-09-07,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,50000.00,,183608.00,revenue
+2024-09-20,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,25000.00,158608.00,transfers_internal
+2024-09-20,JAM Business Account,Jam Worldwide Ltd,Cooperage Content Limited,500.00,,159108.00,revenue
+2024-09-21,JAM Business Account,Jam Worldwide Ltd,Cooperage Content Limited,,500.00,158608.00,professional_services
+2024-09-22,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,75000.00,83608.00,transfers_internal
+2024-10-11,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,40000.00,,123608.00,revenue
+2024-10-25,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,25000.00,98608.00,transfers_internal
+2024-10-31,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,25000.00,73608.00,transfers_internal
+2024-11-12,JAM Business Account,Cooperage Ltd,Cooperage Content Limited,4281.00,,77889.00,revenue
+2024-11-15,JAM Business Account,Cooperage Ltd,Cooperage Content Limited,882.00,,78771.00,revenue
+2024-11-21,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,20000.00,58771.00,transfers_internal
+2024-11-26,JAM Business Account,Cooperage Ltd,Cooperage Content Limited,7608.00,,66379.00,revenue
+2024-11-28,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,45000.00,21379.00,transfers_internal
+2024-11-29,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,90000.00,,111379.00,revenue
+2024-12-13,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,115000.00,-3621.00,transfers_internal
+2025-01-03,JAM Business Account,Cooperage Ltd,Cooperage Content Limited,816.00,,-2805.00,revenue
+2025-01-29,JAM Business Account,Cooperage Ltd,Cooperage Content Limited,20952.00,,18147.00,revenue
+2025-02-14,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,19757.53,-1610.53,transfers_internal
+2025-02-15,JAM Business Account,Jam Worldwide Ltd,Cooperage Content Limited,,2075.00,-3685.53,professional_services
+2025-03-03,JAM Business Account,Cooperage Ltd,Cooperage Content Limited,4458.00,,772.47,revenue
+2025-03-13,JAM Business Account,Cooperage Ltd,Cooperage Content Limited,768.00,,1540.47,revenue
+2025-03-17,JAM Business Account,Jam Worldwide Ltd,Cooperage Content Limited,,2075.00,-534.53,professional_services
+2025-04-01,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,75000.00,,74465.47,revenue
+2025-04-03,JAM Business Account,Cooperage Ltd,Cooperage Content Limited,13911.00,,88376.47,revenue
+2025-04-09,JAM Business Account,05560 1350355 2024,I W G S,4968.00,,93344.47,refund
+2025-04-15,JAM Business Account,Jam Worldwide Ltd,Cooperage Content Limited,,2075.00,91269.47,professional_services
+2025-04-16,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,15000.00,76269.47,transfers_internal
+2025-04-29,JAM Business Account,Cooperage Ltd,Cooperage Content Limited,384.00,,76653.47,revenue
+2025-05-05,JAM Business Account,Cooperage Ltd,Cooperage Content Limited,432.00,,77085.47,revenue
+2025-05-05,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,10000.00,67085.47,transfers_internal
+2025-05-19,JAM Business Account,Cooperage 205123,Cooperage Content Limited,168.00,,67253.47,revenue
+2025-05-20,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,90000.00,,157253.47,revenue
+2025-05-27,JAM Business Account,Jam Worldwide AL,Jam Worldwide Limited,,100000.00,57253.47,transfers_internal
+2025-05-30,JAM Business Account,INV 5111 5108 5107,Cooperage Content Limited,47262.00,,104515.47,revenue
+2025-06-12,JAM Business Account,Funds,Jam Worldwide Limited,,5000.00,99515.47,transfers_internal
+2025-06-18,JAM Business Account,INV 054,Cooperage Content Limited,192.00,,99707.47,revenue
+2025-06-27,JAM Business Account,Wonderhood 205147,Cooperage Content Limited,6348.00,,106055.47,revenue
+2025-07-03,JAM Business Account,Funds,Jam Worldwide Limited,,20000.00,86055.47,transfers_internal
+2025-07-24,JAM Business Account,Jam Assembly x 4,Cooperage Content Limited,768.00,,86823.47,revenue
+2025-07-25,JAM Business Account,Jam 159,Cooperage Content Limited,289.00,,87112.47,revenue
+2025-08-08,JAM Business Account,INV 185,Thomas Duffy Trading As Duffy Films,,510.00,86602.47,suppliers_cogs
+2025-08-19,JAM Business Account,Transfer,Jam Worldwide Limited,,45000.00,41602.47,transfers_internal
+2025-08-21,JAM Business Account,Coop Assembly Lon,Cooperage Content Limited,192.00,,41794.47,revenue
+2025-08-27,JAM Business Account,Transfer,Jam Worldwide Limited,,23000.00,18794.47,transfers_internal
+2025-08-29,JAM Business Account,205185,Cooperage Content Limited,3254.00,,22048.47,revenue
+2025-08-29,JAM Business Account,T1315866527,Wise,,681.79,21366.68,transfers_internal
+2025-09-04,JAM Business Account,Transfer,Jam Worldwide Limited,,15000.00,6366.68,transfers_internal
+2025-09-06,JAM Business Account,Transfer,Jam Worldwide Limited,,6000.00,366.68,transfers_internal
+2025-09-20,JAM Business Account,20Something,Cooperage Content Limited,1980.00,,2346.68,revenue
+2025-10-08,JAM Business Account,Jam Assembly 0076,Cooperage Content Limited,384.00,,2730.68,revenue
+2025-10-17,JAM Business Account,Transfer,Jam Worldwide Limited,,3000.00,-269.32,transfers_internal
+2025-10-31,JAM Business Account,Wonderhood,Cooperage Content Limited,1308.00,,1038.68,revenue
+2025-11-11,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,100000.00,,101038.68,revenue
+2025-11-13,JAM Business Account,JAM WORLDWIDE ALLI,Jam Worldwide Limited,61000.00,,162038.68,revenue
+2025-11-14,JAM Business Account,Jam 0923 0922,T Marchant Limited,,810.00,161228.68,suppliers_cogs
+2025-11-19,JAM Business Account,CASS539809000000QH,Jam Worldwide Limited,224.00,,161452.68,revenue
+2025-11-21,JAM Business Account,Jam 003,Made By Cvs Ltd,,420.00,161032.68,professional_services
+2025-11-21,JAM Business Account,Jam 62 63,Michael Watson,,700.00,160332.68,suppliers_cogs
+2025-11-21,JAM Business Account,001669-001,Sk Bus Fin Frpay,16000.00,,176332.68,financing_income
+2025-11-21,JAM Business Account,1457 Jam,Silversign Limited,,3000.00,173332.68,rent
+2025-11-21,JAM Business Account,T1425048117,Wise,,5870.99,167461.69,transfers_internal
+2025-11-21,JAM Business Account,T1425053002,Wise,,2994.06,164467.63,transfers_internal
+2025-11-22,JAM Business Account,Jam 0405,Click Lab Digital,,1404.00,163063.63,marketing_advertising
+2025-11-25,JAM Business Account,001669-001,Sk Bus Fin Frpay,10500.00,,173563.63,financing_income
+2025-11-26,JAM Business Account,Jam expenses,Neil Lane,,248.31,173315.32,directors_drawings
+2025-11-26,JAM Business Account,HWCC Sponsorship,Harry Lane,,600.00,172715.32,directors_drawings
+2025-11-28,JAM Business Account,IntrvlMnthDay,David William Lane,,666.66,172048.66,directors_drawings
+2025-11-28,JAM Business Account,Jam Salary Feb 25,Lucie Loughlin,,788.80,171259.86,directors_drawings
+2025-11-28,JAM Business Account,Jam Salary Feb 25,Neil Lane,,757.60,170502.26,directors_drawings
+2025-11-28,JAM Business Account,4257,Modulo 2 Ltd,,1250.00,169252.26,suppliers_cogs
+2025-11-28,JAM Business Account,Jam 046,Paul Mitchison Mon,,1000.00,168252.26,consulting_fees
+2025-11-28,JAM Business Account,Jam Salary Feb 25,Marian Popescu,,3465.08,164787.18,payroll
+2025-11-28,JAM Business Account,Jam Salary Feb 25,Harry Lane,,4367.99,160419.19,directors_drawings
+2025-11-28,JAM Business Account,096,Gurdeep Singh Soun,,624.00,159795.19,suppliers_cogs
+2025-11-28,JAM Business Account,Feb 25 Dividend,Neil Lane,,7654.00,152141.19,directors_drawings
+2025-11-28,JAM Business Account,182 186 188,Jamesy Ltd,,1220.00,150921.19,suppliers_cogs
+2025-11-28,JAM Business Account,T1434523157,Wise,,3866.58,147054.61,transfers_internal
+2025-11-28,JAM Business Account,Jam Salary Feb 25,Poppy Byrne,,3969.18,143085.43,payroll
+2025-11-28,JAM Business Account,Jam Salary Feb 25,Felicity Price,,3709.35,139376.08,payroll
+2025-11-28,JAM Business Account,Feb 25 Dividend,Lucie Loughlin,,7654.00,131722.08,directors_drawings
+2025-11-28,JAM Business Account,Jam 333 332,Resonance Language,,3951.36,127770.72,suppliers_cogs
+2025-11-28,JAM Business Account,T1434528761,Wise,,7473.68,120297.04,transfers_internal
+2025-11-28,JAM Business Account,Monthly Admin Feb,Cooperage Content Limited,,90.00,120207.04,professional_services
+2025-11-28,JAM Business Account,0023,Load Consulting Lt,,2500.00,117707.04,consulting_fees
+2025-12-04,JAM Business Account,FC shoot petrol,Lucie Loughlin,,200.00,117507.04,directors_drawings
+2025-12-05,JAM Business Account,001669-001,Sk Bus Fin Frpay,8000.00,,125507.04,financing_income
+2025-12-05,JAM Business Account,Jam Worldwide Ltd,Iwoca Hydrogen Ltd,,3375.45,122131.59,loan_repayment
+2025-12-06,JAM Business Account,3.74208E+14,American Express Services Europe Limited,,3179.19,118952.40,loan_repayment
+2025-12-07,JAM Business Account,Vice,Cooperage Content Limited,432.00,,119384.40,revenue
+2025-12-12,JAM Business Account,001669-001,Sk Bus Fin Frpay,12000.00,,131384.40,financing_income
+2025-12-14,JAM Business Account,Jam 260 261,Andreas Nicodemou,,850.00,130534.40,suppliers_cogs
+2025-12-14,JAM Business Account,1808,B W Film,,1978.79,128555.61,suppliers_cogs
+2025-12-14,JAM Business Account,Jam Worldwide,Adstream,,6111.60,122444.01,marketing_advertising
+2025-12-14,JAM Business Account,128,Susumi Ltd,,420.00,122024.01,professional_services
+2025-12-14,JAM Business Account,Jam vr62857,Sue Terry Voices,,4086.00,117938.01,suppliers_cogs
+2025-12-14,JAM Business Account,0925 0924,T Marchant Limited,,2025.00,115913.01,suppliers_cogs
+2025-12-14,JAM Business Account,Jam Various,Charlie Lane,,3300.00,112613.01,directors_drawings
+2025-12-14,JAM Business Account,47212 47108,Hobsons,,11108.40,101504.61,suppliers_cogs
+2025-12-14,JAM Business Account,T1454742273,Wise,,19949.08,81555.53,transfers_internal
+2025-12-17,JAM Business Account,Jam World Wide Ltd,Nat West Bounce Ba,,517.69,81037.84,loan_repayment
+2025-12-18,JAM Business Account,Jam GB81239,Imd Media,,42.00,80995.84,suppliers_cogs
+2025-12-18,JAM Business Account,1479,Silversign Limited,,3000.00,77995.84,rent
+2025-12-20,JAM Business Account,Assembly,Cooperage Content Limited,1344.00,,79339.84,revenue
+2025-12-22,JAM Business Account,Expenses,Neil Lane,,155.15,79184.69,directors_drawings
+2025-12-24,JAM Business Account,001669-001,Sk Bus Fin Frpay,10000.00,,89184.69,financing_income
+2025-12-28,JAM Business Account,Jam Salary,Felicity Price,,3852.47,85332.22,payroll
+2025-12-28,JAM Business Account,Jam Salary,Marian Popescu,,3465.08,81867.14,payroll
+2025-12-28,JAM Business Account,Jam Salary,Lucie Loughlin,,788.80,81078.34,directors_drawings
+2025-12-28,JAM Business Account,Jam Salary,Neil Lane,,757.60,80320.74,directors_drawings
+2025-12-28,JAM Business Account,IntrvlMnthDay,David William Lane,,666.66,79654.08,directors_drawings
+2025-12-28,JAM Business Account,Jam Salary,Harry Lane,,4321.19,75332.89,directors_drawings
+2025-12-28,JAM Business Account,Jam Salary,Poppy Byrne,,3536.73,71796.16,payroll
+2025-12-28,JAM Business Account,Expenses,Neil Lane,,101.21,71694.95,directors_drawings
+2025-12-29,JAM Business Account,Jam Expenses,Harry Lane,,450.02,71244.93,directors_drawings
+2025-12-29,JAM Business Account,Jam Expenses,Lucie Loughlin,,170.73,71074.20,directors_drawings
+2025-12-31,JAM Business Account,001669-001,Sk Bus Fin Frpay,51000.00,,122074.20,financing_income
+2025-12-31,JAM Business Account,1502,Silversign Limited,,3000.00,119074.20,rent
+2025-12-31,JAM Business Account,2503 2504,Jordan Bezants,,5660.00,113414.20,suppliers_cogs
+2025-12-31,JAM Business Account,JAM 2502A 2502B,Rick Bateson Ltd,,2715.00,110699.20,suppliers_cogs
+2025-12-31,JAM Business Account,JAM 1674781 167477,Softcat Plc,,7293.64,103405.56,office_supplies
+2025-12-31,JAM Business Account,JAM 340 343,Resonance Language,,1506.60,101898.96,suppliers_cogs
+2025-12-31,JAM Business Account,0273,Andreas Nicodemou,,425.00,101473.96,suppliers_cogs
+2025-12-31,JAM Business Account,047,Paul Mitchison Mon,,1500.00,99973.96,consulting_fees
+2025-12-31,JAM Business Account,Jam 4279,Modulo 2 Ltd,,1250.00,98723.96,suppliers_cogs
+2025-12-31,JAM Business Account,351,Resonance Language,,648.00,98075.96,suppliers_cogs
+2025-12-31,JAM Business Account,Jam 025,Load Consulting Lt,,2500.00,95575.96,consulting_fees
+2025-12-31,JAM Business Account,0045 JAM,Thomas Duffy Trading As Duffy Films,,510.00,95065.96,suppliers_cogs
+2025-12-31,JAM Business Account,Jam ww E331851L,Canada Life,,313.48,94752.48,pension
+2025-12-31,JAM Business Account,JAM 536430101,Yakety Yak All Mou,,2340.00,92412.48,suppliers_cogs
+2025-12-31,JAM Business Account,T1476683013,Wise,,13192.11,79220.37,transfers_internal
+2025-12-31,JAM Business Account,T1476687474,Wise,,100.00,79120.37,transfers_internal
+2025-12-31,JAM Business Account,T1476696140,Wise,,3788.61,75331.76,transfers_internal
+2025-12-31,JAM Business Account,T1476715692,Wise,,3792.22,71539.54,transfers_internal
+2025-12-31,JAM Business Account,Skipton Business Finance Limited,Skipton Business Finance Limited,17000.00,,88539.54,financing_income
+2025-12-31,JAM Business Account,T1477171086,Wise,,7738.81,80800.73,transfers_internal
+2025-12-31,JAM Business Account,Efektura 00425 003,Jam Worldwide Limi,,5907.00,74893.73,suppliers_cogs
+2025-12-31,JAM Business Account,StudioSmileWise,Jam Worldwide Limi,,2621.00,72272.73,suppliers_cogs
+2025-12-31,JAM Business Account,REFUND PPB,Shaun Bond T A Pur,1100.00,,73372.73,refund
+2026-01-01,JAM Business Account,Balance  2502A + B,Rick Bateson Chr,,0.60,73372.13,travel
+2026-01-01,JAM Business Account,0093,Cooperage Content,,90.00,73282.13,consulting_fees
+2026-01-03,JAM Business Account,T1482785898,Wise,,12619.03,60663.10,transfers_internal
+2026-01-05,JAM Business Account,Jam Worldwide LTD,Iwoca Hydrogen Ltd,,5000.00,55663.10,loan_repayment
+2026-01-07,JAM Business Account,April 25 Divi pt1,Neil Lane,,4400.00,51263.10,directors_drawings
+2026-01-07,JAM Business Account,April 25 Divi PT1,Lucie Loughlin,,4400.00,46863.10,directors_drawings
+2026-01-07,JAM Business Account,001669-001,Sk Bus Fin Frpay,2000.00,,48863.10,financing_income
+2026-01-11,JAM Business Account,001669-001,Sk Bus Fin Frpay,9000.00,,57863.10,financing_income
+2026-01-11,JAM Business Account,April 25 Divi pt2,Neil Lane,,4400.00,53463.10,directors_drawings
+2026-01-11,JAM Business Account,April 25 Divi pt2,Lucie Loughlin,,4400.00,49063.10,directors_drawings
+2026-01-11,JAM Business Account,Jam WW,Incredible Sports Company,,1200.00,47863.10,suppliers_cogs
+2026-01-12,JAM Business Account,Vodafone payment,Neil Lane,,145.00,47718.10,directors_drawings
+2026-01-14,JAM Business Account,Jam 542848992,Ukglobal Broking Group Ltd,,3732.40,43985.70,insurance
+2026-01-17,JAM Business Account,001669-001,Sk Bus Fin Frpay,4900.00,,48885.70,financing_income
+2026-01-17,JAM Business Account,Jam World Wide Ltd,Nat West Bounce Ba,,517.69,48368.01,loan_repayment
+2026-01-22,JAM Business Account,/RFB/REFUND,Imaj Seslendirme Efekt Ve Film Ya,188.00,,48556.01,refund
+2026-01-22,JAM Business Account,Jam 0926 0927,T Marchant Limited,,2452.50,46103.51,suppliers_cogs
+2026-01-22,JAM Business Account,Multiple Jam,Adstream,,5342.40,40761.11,marketing_advertising
+2026-01-22,JAM Business Account,2502051 2503059,Qmuli Limited,,57.60,40703.51,subscription_saas
+2026-01-23,JAM Business Account,001669-001,Sk Bus Fin Frpay,9000.00,,49703.51,financing_income
+2026-01-24,JAM Business Account,001669-001,Sk Bus Fin Frpay,53000.00,,102703.51,financing_income
+2026-01-24,JAM Business Account,EP428348ZYIB,Sippdeal Trustees Limited,,1500.00,101203.51,pension
+2026-01-25,JAM Business Account,001669-001,Sk Bus Fin Frpay,64000.00,,165203.51,financing_income
+2026-01-26,JAM Business Account,Jam Expenses,Lucie Loughlin,,72.82,165130.69,directors_drawings
+2026-01-26,JAM Business Account,Jam Expenses,Neil Lane,,74.95,165055.74,directors_drawings
+2026-01-28,JAM Business Account,April 25 Salary,Harry Lane,,1029.50,164026.24,directors_drawings
+2026-01-28,JAM Business Account,April 25 Salary,Marian Popescu,,3861.22,160165.02,payroll
+2026-01-28,JAM Business Account,IntrvlMnthDay,David William Lane,,666.66,159498.36,directors_drawings
+2026-01-28,JAM Business Account,April 25 Salary,Neil Lane,,1047.50,158450.86,directors_drawings
+2026-01-28,JAM Business Account,April 25 Dividend,Harry Lane,,4800.00,153650.86,directors_drawings
+2026-01-28,JAM Business Account,April 25 Dividend,Lucie Loughlin,,8800.00,144850.86,directors_drawings
+2026-01-28,JAM Business Account,April 25 Dividend,Neil Lane,,8800.00,136050.86,directors_drawings
+2026-01-28,JAM Business Account,April 25 salary,Felicity Price,,3863.22,132187.64,payroll
+2026-01-28,JAM Business Account,April 25 Salary,Poppy Byrne,,3867.62,128320.02,payroll
+2026-01-28,JAM Business Account,April 25 Salary,Lucie Loughlin,,983.30,127336.72,directors_drawings
+2026-01-28,JAM Business Account,001669-001,Sk Bus Fin Frpay,22000.00,,149336.72,financing_income
+2026-01-28,JAM Business Account,Jam Expenses,Lucie Loughlin,,5.00,149331.72,directors_drawings
+2026-01-28,JAM Business Account,Jam Worldwide LTD,Iwoca Hydrogen Ltd,,10000.00,139331.72,loan_repayment
+2026-01-29,JAM Business Account,001669-001,Sk Bus Fin Frpay,38000.00,,177331.72,financing_income
+2026-01-29,JAM Business Account,027,Load Consulting Lt,,2500.00,174831.72,consulting_fees
+2026-01-29,JAM Business Account,048,Paul Mitchison Mon,,1000.00,173831.72,consulting_fees
+2026-01-29,JAM Business Account,4301 4305,Modulo 2 Ltd,,3050.00,170781.72,suppliers_cogs
+2026-01-29,JAM Business Account,Monthly Admin,Cooperage Content,,90.00,170691.72,consulting_fees
+2026-01-30,JAM Business Account,139 140,Charlie Lane,,2760.00,167931.72,directors_drawings
+2026-01-30,JAM Business Account,305301 304201,Devine Voices,,3428.40,164503.32,suppliers_cogs
+2026-01-30,JAM Business Account,T1518211829,Wise,,5510.47,158992.85,transfers_internal
+2026-01-30,JAM Business Account,075,Etdc Digital Media,,250.00,158742.85,marketing_advertising
+2026-01-30,JAM Business Account,117,Gurdeep Singh Soun,,234.00,158508.85,suppliers_cogs
+2026-01-30,JAM Business Account,T1518217187,Wise,,14516.24,143992.61,transfers_internal
+2026-01-30,JAM Business Account,350 344,Resonance Language,,22383.90,121608.71,suppliers_cogs
+2026-01-30,JAM Business Account,2503,Are We Nearly There Yet Ltd,,6585.60,115023.11,suppliers_cogs
+2026-01-30,JAM Business Account,712 jam 0325,Movement In Media,,425.00,114598.11,professional_services
+2026-01-30,JAM Business Account,270,Patrickmfilms,,775.00,113823.11,suppliers_cogs
+2026-01-30,JAM Business Account,Jam 001,Loughlin Consulting Limited,,1500.00,112323.11,consulting_fees
+2026-01-30,JAM Business Account,Jam 100827944,Adstream,,132.00,112191.11,marketing_advertising
+2026-02-01,JAM Business Account,001669-001,Sk Bus Fin Frpay,8900.00,,121091.11,financing_income
+2026-02-06,JAM Business Account,001669-001,Sk Bus Fin Frpay,3800.00,,124891.11,financing_income
+2026-02-06,JAM Business Account,Jam 001,L Juanek,,540.00,124351.11,suppliers_cogs
+2026-02-07,JAM Business Account,001669-001,Sk Bus Fin Frpay,1300.00,,125651.11,financing_income
+2026-02-08,JAM Business Account,001669-001,Sk Bus Fin Frpay,4000.00,,129651.11,financing_income
+2026-02-13,JAM Business Account,001669-001,Sk Bus Fin Frpay,4700.00,,134351.11,financing_income
+2026-02-14,JAM Business Account,001669-001,Sk Bus Fin Frpay,16400.00,,150751.11,financing_income
+2026-02-14,JAM Business Account,262770887,HMRC,,37251.02,113500.09,tax_vat
+2026-02-16,JAM Business Account,001669-001,Sk Bus Fin Frpay,1700.00,,115200.09,financing_income
+2026-02-17,JAM Business Account,Jam World Wide Ltd,Nat West Bounce Ba,,517.69,114682.40,loan_repayment
+2026-02-19,JAM Business Account,Jam 0779,Wick & Tallow Bespoke Ltd,,600.00,114082.40,meals_entertainment
+2026-02-23,JAM Business Account,Jam,T Marchant Limited,,540.00,113542.40,suppliers_cogs
+2026-02-25,JAM Business Account,Jam WW,Tp Consultancy,,55.44,113486.96,consulting_fees
+2026-02-27,JAM Business Account,Skipton Business Finance Limited,Skipton Business Finance Limited,19000.00,,132486.96,financing_income
+2026-02-27,JAM Business Account,Jam May 25 Salary,Lucie Loughlin,,983.10,131503.86,directors_drawings
+2026-02-27,JAM Business Account,Expresso Displays,Harry Lane,,849.00,130654.86,directors_drawings
+2026-02-28,JAM Business Account,IntrvlMnthDay,David William Lane,,666.66,129988.20,directors_drawings
+2026-02-28,JAM Business Account,Jam May 25 Salary,Felicity Price,,3863.21,126124.99,payroll
+2026-02-28,JAM Business Account,May 25 Dividend,Neil Lane,,8800.00,117324.99,directors_drawings
+2026-02-28,JAM Business Account,May 25 Dividend,Lucie Loughlin,,8800.00,108524.99,directors_drawings
+2026-02-28,JAM Business Account,May 25 Dividend,Harry Lane,,4800.00,103724.99,directors_drawings
+2026-02-28,JAM Business Account,Jam May 25 Salary,Harry Lane,,1029.50,102695.49,directors_drawings
+2026-02-28,JAM Business Account,Jam May 25 Salary,Marian Popescu,,3861.21,98834.28,payroll
+2026-02-28,JAM Business Account,Jam May 25 Salary,Poppy Byrne,,3867.21,94967.07,payroll
+2026-02-28,JAM Business Account,Jam May Salary,Neil Lane,,1047.50,93919.57,directors_drawings
+2026-02-28,JAM Business Account,048,Paul Mitchison Mon,,2500.00,91419.57,consulting_fees
+2026-02-28,JAM Business Account,Cooperage,Cooperage Content Limited,810.00,,92229.57,revenue
+2026-02-28,JAM Business Account,Cooperage,Cooperage Content Limited,1584.00,,93813.57,revenue
+2026-02-28,JAM Business Account,081,Etdc Digital Media,,250.00,93563.57,marketing_advertising
+2026-02-28,JAM Business Account,Cooperage,Cooperage Content Limited,5566.00,,99129.57,revenue
+2026-02-28,JAM Business Account,029,Load Consulting Lt,,2500.00,96629.57,consulting_fees
+2026-02-28,JAM Business Account,4328,Modulo 2 Ltd,,1250.00,95379.57,suppliers_cogs
+2026-02-28,JAM Business Account,118,Gurdeep Singh Soun,,429.00,94950.57,suppliers_cogs
+2026-02-28,JAM Business Account,Jam 4990 4983,Softcat Plc,,998.02,93952.55,office_supplies
+2026-02-28,JAM Business Account,193,Jamesy Ltd,,120.00,93832.55,suppliers_cogs
+2026-02-28,JAM Business Account,6986,Fifty Technology Limited,,4947.90,88884.65,capital_expenditure
+2026-02-28,JAM Business Account,33161,Bird & Blend Tea Ltd,,600.00,88284.65,meals_entertainment
+2026-02-28,VAT Pot,VAT set-aside transfer,VAT Set-Aside,1132.39,,1132.39,transfers_internal
+2026-02-28,JAM Business Account,VAT set-aside transfer,VAT Set-Aside,,1132.39,87152.26,transfers_internal
+2026-03-02,JAM Business Account,Personal expenses,Neil Lane,,70.06,87082.20,directors_drawings
+2026-03-03,JAM Business Account,001669-001,Sk Bus Fin Frpay,21000.00,,108082.20,financing_income
+2026-03-04,JAM Business Account,001669-001,Sk Bus Fin Frpay,3000.00,,111082.20,financing_income
+2026-03-04,JAM Business Account,Monthly admin,Cooperage Content Limited,,90.00,110992.20,professional_services
+2026-03-05,JAM Business Account,001669-001,Sk Bus Fin Frpay,3750.00,,114742.20,financing_income
+2026-03-05,JAM Business Account,Skipton Business Finance Limited,Skipton Business Finance Limited,3000.00,,117742.20,financing_income
+2026-03-05,JAM Business Account,Studio Smile 53 52,Jam Worldwide Limi,,4000.00,113742.20,suppliers_cogs
+2026-03-05,JAM Business Account,5048 504A 504C,Rick Bateson Chr,,6579.65,107162.55,travel
+2026-03-05,JAM Business Account,362 367 368 369,Resonance Language,,16743.00,90419.55,suppliers_cogs
+2026-03-05,JAM Business Account,2506,Are We Nearly There Yet Ltd,,4582.20,85837.35,suppliers_cogs
+2026-03-05,JAM Business Account,Monthly Fee,Loughlin Consulting Limited,,1500.00,84337.35,consulting_fees
+2026-03-05,JAM Business Account,LSB 00390,L2sb Studios Limited,,8072.74,76264.61,suppliers_cogs
+2026-03-10,JAM Business Account,Returned payment,Heads Up Production Ltd,,289.20,75975.41,refund
+2026-03-11,JAM Business Account,001669-001,Sk Bus Fin Frpay,3600.00,,79575.41,financing_income
+2026-03-12,JAM Business Account,001669-001,Sk Bus Fin Frpay,17000.00,,96575.41,financing_income
+2026-03-13,JAM Business Account,141,Charlie Lane,,1020.00,95555.41,directors_drawings
+2026-03-13,JAM Business Account,134,Gurdeep Singh Soun,,78.00,95477.41,suppliers_cogs
+2026-03-13,JAM Business Account,1006,Chris Saggers,,180.00,95297.41,suppliers_cogs
+2026-03-13,JAM Business Account,2239,Elp Audio Ltd,,510.00,94787.41,suppliers_cogs
+2026-03-13,JAM Business Account,1CF2025jam,Mr C E Foster,,425.00,94362.41,suppliers_cogs
+2026-03-17,JAM Business Account,Jam World Wide Ltd,Nat West Bounce Ba,,517.69,93844.72,loan_repayment
+2026-03-20,JAM Business Account,Jam CLM7068,Carleasing Midlands Limited,,249.99,93594.73,loan_repayment
+2026-03-20,JAM Business Account,SS393,Sally Skinner,,250.00,93344.73,suppliers_cogs
+2026-03-23,JAM Business Account,001669-001,Sk Bus Fin Frpay,18500.00,,111844.73,financing_income
+2026-03-25,JAM Business Account,Jam WW,Tp Consultancy,,55.44,111789.29,consulting_fees
+2026-03-26,JAM Business Account,001669-001,Sk Bus Fin Frpay,3000.00,,114789.29,financing_income
+2026-03-26,JAM Business Account,Jam personal exps,Neil Lane,,300.40,114488.89,directors_drawings
+2026-03-26,JAM Business Account,Jam 2102,Lyon Air Conditioning Services Limited,,178.80,114310.09,repairs_maintenance
+2026-03-27,JAM Business Account,001669-001,Sk Bus Fin Frpay,4900.00,,119210.09,financing_income
+2026-03-27,JAM Business Account,Jam June 25 Divi,Neil Lane,,8800.00,110410.09,directors_drawings
+2026-03-27,JAM Business Account,Jam June. 25 Salar,Marian Popescu,,3860.81,106549.28,payroll
+2026-03-27,JAM Business Account,Jam June 25 Salary,Felicity Price,,3930.44,102618.84,payroll
+2026-03-27,JAM Business Account,Jam June 25 Divi,Harry Lane,,4800.00,97818.84,directors_drawings
+2026-03-27,JAM Business Account,Jam June 25 Salary,Lucie Loughlin,,983.10,96835.74,directors_drawings
+2026-03-27,JAM Business Account,Jam June 25 Divi,Lucie Loughlin,,8800.00,88035.74,directors_drawings
+2026-03-27,JAM Business Account,Jam June 25 Salary,Poppy Byrne,,3867.61,84168.13,payroll
+2026-03-27,JAM Business Account,Jam June 25 salary,Harry Lane,,1029.50,83138.63,directors_drawings
+2026-03-27,JAM Business Account,Jam June 25 Salary,Neil Lane,,1047.50,82091.13,directors_drawings
+2026-03-28,JAM Business Account,IntrvlMnthDay,David William Lane,,666.66,81424.47,directors_drawings
+2026-03-30,JAM Business Account,049,Paul Mitchison Mon,,4000.00,77424.47,consulting_fees
+2026-03-30,JAM Business Account,031 Jam,Load Consulting Lt,,2500.00,74924.47,consulting_fees
+2026-03-31,VAT Pot,VAT set-aside transfer,VAT Set-Aside,1132.39,,2264.78,transfers_internal
+2026-03-31,JAM Business Account,VAT set-aside transfer,VAT Set-Aside,,1132.39,73792.08,transfers_internal
+2026-04-01,JAM Business Account,Siteground 50% Jam,Resonance Language,,172.73,73619.35,suppliers_cogs
+2026-04-01,JAM Business Account,Jam87,Edmund Casterton,,250.00,73369.35,suppliers_cogs
+2026-04-04,JAM Business Account,987127V00567922,Lex Autolease,440.00,,73809.35,refund
+2026-04-04,JAM Business Account,Skipton Business Finance Limited,Skipton Business Finance Limited,35000.00,,108809.35,financing_income
+2026-04-04,JAM Business Account,Jam Various,Adstream,,3984.00,104825.35,marketing_advertising
+2026-04-04,JAM Business Account,Jam 142,Charlie Lane,,510.00,104315.35,directors_drawings
+2026-04-04,JAM Business Account,Jam 2240,Elp Audio Ltd,,1530.00,102785.35,suppliers_cogs
+2026-04-04,JAM Business Account,Jam,Loughlin Consulting Limited,,1500.00,101285.35,consulting_fees
+2026-04-04,JAM Business Account,4364 Jam,Modulo 2 Ltd,,1250.00,100035.35,suppliers_cogs
+2026-04-04,JAM Business Account,Jam 207250,Mot Models,,9600.00,90435.35,suppliers_cogs
+2026-04-04,JAM Business Account,Jam 21843,Riddingtons Limited,,2340.00,88095.35,suppliers_cogs
+2026-04-04,JAM Business Account,T1613328125,Wise,,9492.47,78602.88,transfers_internal
+2026-04-04,JAM Business Account,T1613342167,Wise,,1794.04,76808.84,transfers_internal
+2026-04-04,JAM Business Account,Jam tml1010,T Marchant Limited,,324.00,76484.84,suppliers_cogs
+2026-04-11,JAM Business Account,BARBON DEP RTN,Silversign Limited,4526.00,,81010.84,refund
+2026-04-11,JAM Business Account,Wonderhood,Cooperage Content Limited,3990.00,,85000.84,revenue
+2026-04-11,JAM Business Account,143 144 145,Charlie Lane,,2520.00,82480.84,directors_drawings
+2026-04-11,JAM Business Account,204 206,Jamesy Ltd,,765.00,81715.84,suppliers_cogs
+2026-04-11,JAM Business Account,10 17 Jam,T Marchant Limited,,540.00,81175.84,suppliers_cogs
+2026-04-11,JAM Business Account,Skipton Business Finance Limited,Skipton Business Finance Limited,25000.00,,106175.84,financing_income
+2026-04-11,JAM Business Account,T1623949741,Wise,,12072.29,94103.55,transfers_internal
+2026-04-14,JAM Business Account,120PL014052642513,HMRC,,2545.77,91557.78,tax_vat
+2026-04-15,JAM Business Account,Packaging supplier invoice,SCN Packaging Suppliers,,5000.00,86557.78,suppliers_cogs
+2026-04-17,JAM Business Account,Jam World Wide Ltd,Nat West Bounce Ba,,517.69,86040.09,loan_repayment
+2026-04-18,JAM Business Account,001669-001,Sk Bus Fin Frpay,30000.00,,116040.09,financing_income
+2026-04-18,JAM Business Account,JT152455,Another Tongue,,4168.02,111872.07,suppliers_cogs
+2026-04-18,JAM Business Account,T1633249544,Wise,,15505.17,96366.90,transfers_internal
+2026-04-18,JAM Business Account,Jam,S R Casciello Rogers,,9409.96,86956.94,suppliers_cogs
+2026-04-21,JAM Business Account,250548 250456,Qmuli Limited,,268.80,86688.14,subscription_saas
+2026-04-24,JAM Business Account,Skipton Business Finance Limited,Skipton Business Finance Limited,55000.00,,141688.14,financing_income
+2026-04-25,JAM Business Account,Jam WW,Tp Consultancy,,55.44,141632.70,consulting_fees
+2026-04-25,JAM Business Account,Wonderhood,Cooperage Content Limited,4929.00,,146561.70,revenue
+2026-04-25,JAM Business Account,T1642960210,Wise,,232.76,146328.94,transfers_internal
+2026-04-26,JAM Business Account,Expenses monitor,Harry Lane,,849.00,145479.94,directors_drawings
+2026-04-28,JAM Business Account,Jam July 25 salary,Poppy Byrne,,3848.82,141631.12,payroll
+2026-04-28,JAM Business Account,Jam July 25 Divi,Lucie Loughlin,,8800.00,132831.12,directors_drawings
+2026-04-28,JAM Business Account,IntrvlMnthDay,David William Lane,,666.66,132164.46,directors_drawings
+2026-04-28,JAM Business Account,July 25 Divi,Neil Lane,,8800.00,123364.46,directors_drawings
+2026-04-28,JAM Business Account,Jam July 25 salary,Felicity Price,,3846.82,119517.64,payroll
+2026-04-28,JAM Business Account,Jam July 25 Divi,Harry Lane,,4800.00,114717.64,directors_drawings
+2026-04-28,JAM Business Account,Jam July 25 salary,Marian Popescu,,3849.22,110868.42,payroll
+2026-04-28,JAM Business Account,Jam July 25 salary,Harry Lane,,1017.50,109850.92,directors_drawings
+2026-04-28,JAM Business Account,Jam July 25 salary,Neil Lane,,1047.50,108803.42,directors_drawings
+2026-04-28,JAM Business Account,Jam July 25 salary,Lucie Loughlin,,949.10,107854.32,directors_drawings
+2026-04-29,JAM Business Account,T1648948505,Wise,,1819.56,106034.76,transfers_internal
+2026-04-30,JAM Business Account,4392,Modulo 2 Ltd,,1250.00,104784.76,suppliers_cogs
+2026-04-30,JAM Business Account,Jam 0033,Load Consulting Lt,,2500.00,102284.76,consulting_fees
+2026-04-30,JAM Business Account,Jam 50,Paul Mitchison Mon,,3000.00,99284.76,consulting_fees
+2026-04-30,JAM Business Account,092,Etdc Digital Media,,250.00,99034.76,marketing_advertising
+2026-04-30,VAT Pot,VAT set-aside transfer,VAT Set-Aside,1132.39,,3397.17,transfers_internal
+2026-04-30,JAM Business Account,VAT set-aside transfer,VAT Set-Aside,,1132.39,97902.37,transfers_internal
+2026-05-06,JAM Business Account,001669-001,Sk Bus Fin Frpay,56000.00,,153902.37,financing_income
+2026-05-06,JAM Business Account,VR64667,Sue Terry Voices,,10020.00,143882.37,suppliers_cogs
+2026-05-06,JAM Business Account,561610101,Yakety Yak All Mou,,6780.00,137102.37,suppliers_cogs
+2026-05-06,JAM Business Account,53407,Clearcut Sound,,240.00,136862.37,suppliers_cogs
+2026-05-06,JAM Business Account,Jam Various,Resonance Language,,20473.20,116389.17,suppliers_cogs
+2026-05-06,JAM Business Account,LAH2056,Leon Hargreaves Photography Limited,,3000.00,113389.17,suppliers_cogs
+2026-05-06,JAM Business Account,146,Gurdeep Singh Soun,,1677.00,111712.17,suppliers_cogs
+2026-05-06,JAM Business Account,T1662523151,Wise,,6251.19,105460.98,transfers_internal
+2026-05-06,JAM Business Account,27168 27167,M R Price,,200.00,105260.98,directors_drawings
+2026-05-06,JAM Business Account,516 Jam,Pixel Advertising,,3510.00,101750.98,marketing_advertising
+2026-05-06,JAM Business Account,0207 Jam,Jamesy Ltd,,675.00,101075.98,suppliers_cogs
+2026-05-07,JAM Business Account,Jam Worldwide LTD,Iwoca Hydrogen Ltd,,1472.99,99602.99,loan_repayment
+2026-05-08,JAM Business Account,1417 Jam,S L Collins,,1986.25,97616.74,suppliers_cogs
+2026-05-08,JAM Business Account,Jam 004,Loughlin Consulting Limited,,1500.00,96116.74,consulting_fees
+2026-05-11,JAM Business Account,001669-001,Sk Bus Fin Frpay,66000.00,,162116.74,financing_income
+2026-05-11,JAM Business Account,Jam 060602,Hobsons,,14886.00,147230.74,suppliers_cogs
+2026-05-11,JAM Business Account,262770887,HMRC,,16912.30,130318.44,tax_vat
+2026-05-11,JAM Business Account,2CF2025JAM,Mr C E Foster,,425.00,129893.44,suppliers_cogs
+2026-05-12,JAM Business Account,Jam 546688236,Ukglobal Broking Group Ltd,,732.39,129161.05,insurance
+2026-05-12,JAM Business Account,Jam 525,Pixel Advertising,,390.00,128771.05,marketing_advertising
+2026-05-12,JAM Business Account,1705,Neunie Limited,,1850.00,126921.05,suppliers_cogs
+2026-05-12,JAM Business Account,T1670582107,Wise,,3313.70,123607.35,transfers_internal
+2026-05-12,JAM Business Account,Jam 515,Pixel Advertising,,330.00,123277.35,marketing_advertising
+2026-05-12,JAM Business Account,110 124,Cooperage Content,,180.00,123097.35,consulting_fees
+2026-05-15,JAM Business Account,Jam 205396,Cooperage Content Limited,84621.00,,207718.35,revenue
+2026-05-15,JAM Business Account,Packaging supplier invoice,SCN Packaging Suppliers,,9000.00,198718.35,suppliers_cogs
+2026-05-15,JAM Business Account,3152/00/01,Devine Voices,,1382.40,197335.95,suppliers_cogs
+2026-05-17,JAM Business Account,Jam World Wide Ltd,Nat West Bounce Ba,,517.69,196818.26,loan_repayment
+2026-05-19,JAM Business Account,Amazon Exps.,Neil Lane,,354.00,196464.26,directors_drawings
+2026-05-20,JAM Business Account,001669-001,Sk Bus Fin Frpay,3500.00,,199964.26,financing_income
+2026-05-21,JAM Business Account,Jam,E R Ryan,,176.60,199787.66,suppliers_cogs
+2026-05-21,JAM Business Account,110,Chris Saggers,,180.00,199607.66,suppliers_cogs
+2026-05-21,JAM Business Account,Jam 334,Andreas Nicodemou,,425.00,199182.66,suppliers_cogs
+2026-05-25,JAM Business Account,Jam WW,Tp Consultancy,,55.44,199127.22,consulting_fees
+2026-05-26,JAM Business Account,001669-001,Sk Bus Fin Frpay,9300.00,,208427.22,financing_income
+2026-05-27,JAM Business Account,Personal expenses,Neil Lane,,214.07,208213.15,directors_drawings
+2026-05-27,JAM Business Account,Skipton Business Finance Limited,Skipton Business Finance Limited,100000.00,,308213.15,financing_income
+2026-05-27,JAM Business Account,Jam worldwide LTD,Iwoca Hydrogen Ltd,,99712.72,208500.43,loan_repayment
+2026-05-27,JAM Business Account,Test expenses,Lucie Loughlin,,1.00,208499.43,directors_drawings
+2026-05-28,JAM Business Account,001669-001,Sk Bus Fin Frpay,20000.00,,228499.43,financing_income
+2026-05-28,JAM Business Account,Jam salary Aug 25,Felicity Price,,3859.21,224640.22,payroll
+2026-05-28,JAM Business Account,Jam Divi Aug 25,Neil Lane,,8800.00,215840.22,directors_drawings
+2026-05-28,JAM Business Account,Jam Divi Aug 25,Lucie Loughlin,,8800.00,207040.22,directors_drawings
+2026-05-28,JAM Business Account,Jam salary Aug 25,Poppy Byrne,,3848.82,203191.40,payroll
+2026-05-28,JAM Business Account,Jam Salary Aug 25,Marian Popescu,,3858.01,199333.39,payroll
+2026-05-28,JAM Business Account,IntrvlMnthDay,David William Lane,,666.66,198666.73,directors_drawings
+2026-05-28,JAM Business Account,Jam salary Aug 25,Lucie Loughlin,,949.10,197717.63,directors_drawings
+2026-05-28,JAM Business Account,Jam Divi Aug 25,Harry Lane,,4800.00,192917.63,directors_drawings
+2026-05-28,JAM Business Account,Jam salary Aug 25,Harry Lane,,1017.50,191900.13,directors_drawings
+2026-05-28,JAM Business Account,Jam salary Aug 25,Neil Lane,,1047.50,190852.63,directors_drawings
+2026-05-28,JAM Business Account,Jam personal Exps,Harry Lane,,277.09,190575.54,directors_drawings
+2026-05-28,JAM Business Account,Jam Expenses,Lucie Loughlin,,298.11,190277.43,directors_drawings
+2026-05-28,JAM Business Account,Jam 1312,Bloom And Wild,,92.65,190184.78,meals_entertainment
+2026-05-29,JAM Business Account,001669-001,Sk Bus Fin Frpay,3800.00,,193984.78,financing_income
+2026-05-29,JAM Business Account,Jam 4422,Modulo 2 Ltd,,1574.00,192410.78,suppliers_cogs
+2026-05-29,JAM Business Account,Jam 098,Etdc Digital Media,,250.00,192160.78,marketing_advertising
+2026-05-29,JAM Business Account,Jam 51,Paul Mitchison Mon,,3750.00,188410.78,consulting_fees
+2026-05-29,JAM Business Account,Jam 0035,Load Consulting Lt,,2500.00,185910.78,consulting_fees
+2026-05-29,JAM Business Account,Jam 0051 0057,Qmuli Limited,,1117.20,184793.58,subscription_saas
+2026-05-29,JAM Business Account,Jam Wonderhood,Cooperage Content Limited,13476.00,,198269.58,revenue
+2026-05-30,VAT Pot,VAT set-aside transfer,VAT Set-Aside,1132.39,,4529.56,transfers_internal
+2026-05-30,JAM Business Account,VAT set-aside transfer,VAT Set-Aside,,1132.39,197137.19,transfers_internal
+2026-05-31,JAM Business Account,Jam Various,Adstream,,7804.80,189332.39,marketing_advertising
+2026-05-31,JAM Business Account,Jam 005,Loughlin Consulting Limited,,1500.00,187832.39,consulting_fees
+2026-05-31,JAM Business Account,146 147 148,Charlie Lane,,2250.00,185582.39,directors_drawings
+2026-05-31,JAM Business Account,424 425 429,Resonance Language,,7008.30,178574.09,suppliers_cogs
+2026-05-31,JAM Business Account,T1698837465,Wise,,2174.65,176399.44,transfers_internal
+2026-05-31,JAM Business Account,1903,B W Film,,3133.44,173266.00,suppliers_cogs
+2026-05-31,JAM Business Account,T1698843171,Wise,,2727.49,170538.51,transfers_internal
+2026-06-04,JAM Business Account,Neil LaneMMMPF,Emma Live Limited,,2400.00,168138.51,suppliers_cogs
+2026-06-08,JAM Business Account,INV 131,Cooperage Content,,90.00,168048.51,consulting_fees
+2026-06-10,JAM Business Account,T1715275102,Wise,,10350.86,157697.65,transfers_internal
+2026-06-15,JAM Business Account,Packaging supplier invoice,SCN Packaging Suppliers,,14000.00,143697.65,suppliers_cogs
+2026-06-17,JAM Business Account,Jam World Wide Ltd,Nat West Bounce Ba,,517.69,143179.96,loan_repayment
+2026-06-22,JAM Business Account,Jam personal exps,Harry Lane,,51.88,143128.08,directors_drawings
+2026-06-22,JAM Business Account,Jam expenses,Neil Lane,,170.06,142958.02,directors_drawings
+2026-06-30,VAT Pot,VAT set-aside transfer,VAT Set-Aside,1132.39,,5661.95,transfers_internal
+2026-06-30,JAM Business Account,VAT set-aside transfer,VAT Set-Aside,,1132.39,141825.63,transfers_internal
+2026-07-01,VAT Pot,VAT set-aside transfer,VAT Set-Aside,1132.37,,6794.32,transfers_internal
+2026-07-01,JAM Business Account,VAT set-aside transfer,VAT Set-Aside,,1132.37,140693.26,transfers_internal
+2026-07-01,JAM Business Account,Customer receipts,SCN Regular Customers,11900.00,,152593.26,revenue
+2026-07-01,JAM Business Account,Customer receipts,SCN Regular Customers,11900.00,,164493.26,revenue
+2026-07-01,JAM Business Account,Customer receipts,SCN Regular Customers,11900.00,,176393.26,revenue
+2026-07-01,JAM Business Account,Packaging supplier invoice,SCN Packaging Suppliers,,20000.00,156393.26,suppliers_cogs
+2026-07-01,JAM Business Account,Director dividend,SCN Director Dividend,,120000.00,36393.26,directors_drawings
+2026-07-01,JAM Business Account,Quarterly VAT payment,HMRC VAT,,52000.00,-15606.74,tax_vat
