@@ -1,0 +1,12 @@
+# Participant exports and similar personal data
+people.json
+**/people.json
+
+# Environment variables and key material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
